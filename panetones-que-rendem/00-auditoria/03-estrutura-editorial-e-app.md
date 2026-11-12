@@ -47,3 +47,4 @@
   6. **Calendário de Produção:** plano de fim de semana (30 unidades) com checkboxes por turno.
   7. **Kit de Divulgação, Catálogo & Etiquetas:** copiar scripts WhatsApp com 1 clique, personalizar menu de 3 opções e gerar/imprimir folha A4 de etiquetas com dados da marca + rotulagem obrigatória.
   8. **Guia de Compras PT & Checklist Legal:** referência rápida de fornecedores/ingredientes e enquadramento ASAE/Finanças.
+

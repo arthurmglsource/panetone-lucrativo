@@ -35,3 +35,4 @@ Consumiveis;Película aderente alimentar;rolo;1;2;2;0;0;=G34*H34;NAO
 Consumiveis;Papel absorvente e papel alumínio;conj;1;2;2;0;0;=G35*H35;NAO
 RESUMO;TOTAL DA COMPRA (EUR);;;;;;;=SUM(I2:I35);
 RESUMO;COM QUEBRA DE +5% INGREDIENTES;;;;;;;"=SUM(I2:I23)*1.05+SUM(I24:I35)";
+

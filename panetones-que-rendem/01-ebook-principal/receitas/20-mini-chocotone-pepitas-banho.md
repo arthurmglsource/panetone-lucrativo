@@ -42,3 +42,4 @@
 
 - **Erros comuns:** Usar chocolate genuíno derretido sem temperagem no banho (fica opaco com manchas brancas — *fat bloom* — e cola todo ao saco celofane!); usar pepitas grandes em minis deixando pouca massa por cima da base.
 - **Aviso de teste físico:** Faça o teste de secagem do banho escolhido e deixe 1 unidade embalada em saco celofane por `48 h` à temperatura da sua casa para confirmar que não cola ao plástico.
+

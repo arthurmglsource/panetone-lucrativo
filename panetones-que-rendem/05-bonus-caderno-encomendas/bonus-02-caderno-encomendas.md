@@ -88,3 +88,4 @@ Preencha na segunda-feira seguinte para saber exatamente quanto faturou, quanto 
 | **E. Resultado Líquido na Sua Mão (`A - B - C - D`)** | `_______,__ €` | Remunera o seu trabalho + lucro da marca |
 | **F. Horas Ativas Trabalhadas (`compras + cozinha + entregas`)** | `_____ horas` | Cronometradas na semana |
 | **G. Ganho Real por Hora Trabalhada (`E / F`)** | `_______,__ €/h` | Avaliar se preços do Mód. 04 precisam de ajuste |
+

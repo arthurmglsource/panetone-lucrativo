@@ -56,3 +56,4 @@
 
 - **Erros comuns:** Fazer a *glassa* demasiado líquida (escorre pelas paredes da forma e queima); bater as claras em castelo (forma espuma que racha feio no forno); colocar excesso de *glassa* no centro causando afundamento por peso.
 - **Aviso de teste físico:** Valide o ponto exato de fluidez da *glassa* e o minuto em que deve cobrir com alumínio no seu forno doméstico antes de aceitar pedidos.
+

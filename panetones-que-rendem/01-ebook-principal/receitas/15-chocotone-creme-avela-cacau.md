@@ -47,3 +47,4 @@
 
 - **Erros comuns:** Usar avelã crua sem tostar (quase não tem sabor nem crocância); servir acabado de sair do frigorífico a `4 °C` (parece duro); misturar avelãs com dias de antecedência em creme demasiado quente fazendo-as murchar.
 - **Aviso de teste físico:** Teste a fluidez da mistura conforme a marca comercial de creme de avelã ou chocolate usada antes da venda em catálogo.
+

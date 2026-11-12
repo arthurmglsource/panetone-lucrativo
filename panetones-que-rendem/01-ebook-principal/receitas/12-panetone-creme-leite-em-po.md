@@ -50,3 +50,4 @@
 
 - **Erros comuns:** Queimar o fundo do creme de leite em pó por usar lume alto; criar grumos de leite em pó por juntá-lo já depois do leite condensado ferver; polvilhar leite em pó na ganache ainda morna.
 - **Aviso de teste físico:** Valide o ponto cremoso do recheio após `12 h` de frio e observe como se comporta a camada polvilhada em caixa fechada durante 24–48 h antes das primeiras vendas.
+

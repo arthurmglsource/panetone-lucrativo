@@ -51,3 +51,4 @@
 
 - **Erros comuns:** Cozinhar demais o recheio deixando-o duro (ao ir ao frigorífico transforma-se num bloco rígido difícil de cortar); cobrir com ganache demasiado quente (entra pela junta da tampa e escorre pelo papel); rasgar o fundo ao escavar.
 - **Aviso de teste físico:** Teste o ponto de cozimento do seu creme (o tempo varia consoante a largura do tacho e potência do fogão) e faça uma prova de corte refrigerada após `24 h` antes de iniciar vendas.
+

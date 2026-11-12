@@ -53,3 +53,4 @@
 
 - **Erros comuns:** Usar noz crua sem tostar (amarga e fica mole rapidamente); bater o doce de leite junto com as natas líquidas na batedeira rápida desde o início (muitas vezes não ganha ar ou talha a gordura); usar calda quente.
 - **Aviso de teste físico:** Valide a firmeza da mousse de doce de leite com a marca específica de doce de leite e natas portuguesas escolhida (`>= 35 %` MG obrigatório para montar).
+

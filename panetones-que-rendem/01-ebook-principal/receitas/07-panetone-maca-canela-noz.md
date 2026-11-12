@@ -56,3 +56,4 @@
 
 - **Erros comuns:** Usar maçã crua ou não evaporar o sumo na frigideira (cria buracos húmidos crus dentro do panetone); picar nozes em pó escurecendo a massa em vez de pedaços crocantes.
 - **Aviso de teste físico:** Confirme no teste físico a secagem da maçã na frigideira e a durabilidade real durante 4 dias antes de incluir no catálogo comercial.
+

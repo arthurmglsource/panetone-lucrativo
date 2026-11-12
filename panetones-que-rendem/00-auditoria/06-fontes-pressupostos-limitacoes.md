@@ -21,3 +21,4 @@
 - **Sem preços reais dinâmicos de supermercados/fornecedores:** preços de ingredientes flutuam por região, marca e época; no Bónus 03 e na Calculadora usaremos exemplos ilustrativos claramente marcados como *"Exemplo ilustrativo — substitua pelos seus custos reais"*.
 - **Sem garantia de vendas, lucros ou aconselhamento jurídico/fiscal vinculativo:** todo o conteúdo respeitará os disclaimers legais presentes no rodapé da landing page (`index.html`).
 - **Personagem Inês Martins:** tratada exclusivamente como personagem ilustrativa da marca, nunca como autora real ou especialista certificada.
+

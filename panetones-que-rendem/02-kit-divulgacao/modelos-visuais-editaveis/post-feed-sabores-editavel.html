@@ -120,9 +120,14 @@
       font-weight: 800;
       font-size: 13px;
     }
+    @page {
+      size: 540px 540px;
+      margin: 0;
+    }
     @media print {
-      body { background: #ffffff; padding: 0; }
+      body { background: #27070d; padding: 0; margin: 0; }
       .bar { display: none; }
+      .feed-square { border-radius: 0; }
     }
   </style>
 </head>
@@ -169,3 +174,4 @@
   </section>
 </body>
 </html>
+

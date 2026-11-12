@@ -18,3 +18,4 @@
 - **Confirmação:** sinal de **`50 %` por MB WAY** no ato da reserva; restantes `50 %` no levantamento/entrega.
 - **Alergénios:** Todos os produtos contêm **glúten (trigo), ovos e leite**; consoante o sabor escolhido podem conter **frutos de casca rija, soja e sulfitos**. Produzido em cozinha doméstica com manipulação partilhada desses ingredientes.
 - *(\*) Valores de referência puramente ilustrativos — confirme sempre as margens reais na sua calculadora.*
+

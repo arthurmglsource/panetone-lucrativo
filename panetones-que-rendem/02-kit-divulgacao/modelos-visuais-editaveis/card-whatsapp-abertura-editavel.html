@@ -141,10 +141,14 @@
       color: var(--gold-light);
       line-height: 1.4;
     }
+    @page {
+      size: 360px 640px;
+      margin: 0;
+    }
     @media print {
-      body { background: #ffffff; padding: 0; }
+      body { background: #27070d; padding: 0; margin: 0; }
       .bar { display: none; }
-      .story-card { box-shadow: none; }
+      .story-card { box-shadow: none; border-radius: 0; }
     }
   </style>
 </head>
@@ -202,3 +206,4 @@
   </article>
 </body>
 </html>
+

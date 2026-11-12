@@ -47,3 +47,4 @@
 
 - **Erros comuns:** Cozinhar demasiado o creme (fica rijo e não sai pelo bico fino, rasgando o saco de pasteleiro); polvilhar leite em pó na ganache ainda húmida (derrete).
 - **Aviso de teste físico:** Teste a passagem do creme frio pelo seu bico específico após `6 h` de frio antes de preparar um lote grande para clientes.
+

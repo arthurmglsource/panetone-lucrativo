@@ -52,3 +52,4 @@
 
 - **Erros comuns:** Usar frutos frescos crus (morangos/framboesas frescos largam demasiada água, criando bolhas ocas e reduzindo a validade para `24 h`); deixar gotas de chocolate branco na superfície exterior antes do forno (ficam tostadas e escuras).
 - **Aviso de teste físico:** Valide a temperatura de forno a `160 °C` (ou `155 °C` ventilado) no seu equipamento para garantir interior a `92–94 °C` sem caramelizar em excesso o chocolate branco.
+

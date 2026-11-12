@@ -57,3 +57,4 @@
 
 - **Erros mais frequentes:** Usar farinha `T45` para bolos (abate no forno); adicionar manteiga toda de uma vez no início (miolo pesado tipo bolo); retirar do forno antes dos `92 °C` internos.
 - **Aviso de teste físico obrigatório:** Os tempos de fermentação (`1 h–5 h`) e cozedura (`35–42 min`) variam consoante a temperatura real da sua cozinha e calibração do seu forno doméstico. **Execute sempre uma fornada de teste físico antes de abrir encomendas comerciais.**
+

@@ -134,3 +134,4 @@ Escolha **um sabor** da Parte III (ex.: *Receita 12 — Recheado de Creme de Lei
 - [ ] Preencheu o custo real dos ingredientes em gramas usando talões da sua zona (sem copiar valores ao acaso).
 - [ ] Incluiu `5 %` de quebra, o custo integral da embalagem, energia e o seu valor/hora de trabalho.
 - [ ] Validou o preço final para cada uma das 3 faixas de menu mantendo margem positiva mesmo com compras de pequena escala.
+

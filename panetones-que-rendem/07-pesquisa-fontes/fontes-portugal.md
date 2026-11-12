@@ -23,3 +23,4 @@ Registo das referências verificadas para fundamentar o conteúdo editorial em P
   - *Fresco:* cubos de 25 g na secção de frio.
   - *Seco instantâneo:* saquetas de 7 g ou embalagens maiores na secção de mercearia.
   - *Equivalência prática:* ~1 parte de fermento seco para 3 partes de fermento fresco (ex.: 8–9 g seco ≈ 25 g fresco).
+

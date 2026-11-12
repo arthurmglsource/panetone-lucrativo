@@ -1,0 +1,14 @@
+Categoria;Produto_Procurado;Fornecedor_A;Preco_Embalagem_A_EUR;Qtd_Embalagem_A_kg_L_unid;Portes_A_EUR;Custo_Unitario_Real_A;Fornecedor_B;Preco_Embalagem_B_EUR;Qtd_Embalagem_B_kg_L_unid;Portes_B_EUR;Custo_Unitario_Real_B;Melhor_Opcao;Data_Cotacao;Notas
+Farinhas;Farinha Manitoba / Alta Força (1 kg ou 5 kg);;0;0;0;=IF(E2>0,(D2+F2)/E2,0);;0;0;0;=IF(J2>0,(I2+K2)/J2,0);=IF(AND(E2>0,J2>0),IF(G2<=L2,C2,H2),"");;Confirmar >=12g proteína/100g e se preço inclui IVA
+Laticinios;Manteiga sem sal (>=80-82% MG);;0;0;0;=IF(E3>0,(D3+F3)/E3,0);;0;0;0;=IF(J3>0,(I3+K3)/J3,0);=IF(AND(E3>0,J3>0),IF(G3<=L3,C3,H3),"");;Evitar cremes vegetais de barrar com água
+Laticinios;Natas para bater (>=35% MG);;0;0;0;=IF(E4>0,(D4+F4)/E4,0);;0;0;0;=IF(J4>0,(I4+K4)/J4,0);=IF(AND(E4>0,J4>0),IF(G4<=L4,C4,H4),"");;Confirmar validade >= 2 semanas
+Chocolates;Chocolate negro 54% pastelaria;;0;0;0;=IF(E5>0,(D5+F5)/E5,0);;0;0;0;=IF(J5>0,(I5+K5)/J5,0);=IF(AND(E5>0,J5>0),IF(G5<=L5,C5,H5),"");;Comparar barras vs gotas forneáveis
+Chocolates;Chocolate branco pastelaria;;0;0;0;=IF(E6>0,(D6+F6)/E6,0);;0;0;0;=IF(J6>0,(I6+K6)/J6,0);=IF(AND(E6>0,J6>0),IF(G6<=L6,C6,H6),"");;
+Chocolates;Pepitas chocolate forneáveis;;0;0;0;=IF(E7>0,(D7+F7)/E7,0);;0;0;0;=IF(J7>0,(I7+K7)/J7,0);=IF(AND(E7>0,J7>0),IF(G7<=L7,C7,H7),"");;Verificar se resistem ao forno
+Recheios;Leite condensado tradicional;;0;0;0;=IF(E8>0,(D8+F8)/E8,0);;0;0;0;=IF(J8>0,(I8+K8)/J8,0);=IF(AND(E8>0,J8>0),IF(G8<=L8,C8,H8),"");;Preferir lata/embalagem ~395g tradicional
+Recheios;Creme de avelã / Pasta pistácio;;0;0;0;=IF(E9>0,(D9+F9)/E9,0);;0;0;0;=IF(J9>0,(I9+K9)/J9,0);=IF(AND(E9>0,J9>0),IF(G9<=L9,C9,H9),"");;Atenção ao % real de fruto seco
+Embalagens;Formas papel forneáveis 500 g;;0;0;0;=IF(E10>0,(D10+F10)/E10,0);;0;0;0;=IF(J10>0,(I10+K10)/J10,0);=IF(AND(E10>0,J10>0),IF(G10<=L10,C10,H10),"");;Confirmar altura e diâmetro exatos
+Embalagens;Formas papel Mini 100-120 g;;0;0;0;=IF(E11>0,(D11+F11)/E11,0);;0;0;0;=IF(J11>0,(I11+K11)/J11,0);=IF(AND(E11>0,J11>0),IF(G11<=L11,C11,H11),"");;
+Embalagens;Caixas c/ visor p/ Panetone 500 g;;0;0;0;=IF(E12>0,(D12+F12)/E12,0);;0;0;0;=IF(J12>0,(I12+K12)/J12,0);=IF(AND(E12>0,J12>0),IF(G12<=L12,C12,H12),"");;Confirmar altura >=16-18 cm p/ recheados
+Embalagens;Sacos celofane alimentar 30x45cm / 15x25cm;;0;0;0;=IF(E13>0,(D13+F13)/E13,0);;0;0;0;=IF(J13>0,(I13+K13)/J13,0);=IF(AND(E13>0,J13>0),IF(G13<=L13,C13,H13),"");;Confirmar certificação contacto alimentar
+Embalagens;Copos PET 220 ml c/ tampa bolha + colheres;;0;0;0;=IF(E14>0,(D14+F14)/E14,0);;0;0;0;=IF(J14>0,(I14+K14)/J14,0);=IF(AND(E14>0,J14>0),IF(G14<=L14,C14,H14),"");;Tampa alta para não esmagar o topo

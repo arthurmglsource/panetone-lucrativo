@@ -49,3 +49,4 @@
 
 - **Erros comuns:** Aplicar doce de leite cozido puro diretamente do frasco/lata (rasga o miolo e fica duro/pegajoso ao cortar); exagerar na flor de sal tornando salgado; abrir lata cozida antes de estar totalmente fria.
 - **Aviso de teste físico:** Valide o ponto final da mistura doce de leite + natas após `4 h` de frio (algumas marcas comerciais de doce de leite são mais líquidas e pedem apenas `60 ml` de natas em vez de `90 ml`).
+

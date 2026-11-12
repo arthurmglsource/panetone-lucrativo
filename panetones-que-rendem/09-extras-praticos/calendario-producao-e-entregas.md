@@ -30,3 +30,4 @@ Preencha em papel ou use `calendario-producao-entregas-editavel.csv`:
 - **Sábado (`07h30–17h30`):** 4 amassaduras escalonadas + até 5 fornadas sequenciais + *tombamento* invertido durante a noite (`8–12 h`).
 - **Domingo Manhã (`08h30–12h30`):** Embalar Clássicos → escavar e rechear Grandes e Minis → montar **Panetones no Copo** com o miolo escavado → aplicar etiquetas UE 1169/2011 e selos.
 - **Domingo Tarde (`14h30–18h30`):** Janela fixa de levantamentos + rota agrupada de entregas + cobrança dos restantes `50 %`.
+

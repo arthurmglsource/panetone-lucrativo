@@ -56,3 +56,4 @@
 
 - **Erros comuns:** Não secar as frutas depois de hidratar (manchas roxas/húmidas ao redor das passas); usar frutas de má qualidade demasiado açucaradas; cortar demasiado fundo na cruz fazendo a cúpula rasgar para os lados.
 - **Aviso de teste físico:** Valide o comportamento do corte em cruz e tempo de cozedura no seu forno antes de fotografar e vender.
+

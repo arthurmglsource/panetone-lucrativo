@@ -29,3 +29,4 @@
 - [ ] Mantive **Panetones no Copo e Recheados refrigerados (`<= 5 °C`)** até ao momento da entrega.
 - [ ] Enviei a mensagem de lembrete na véspera relembrando hora e valor em falta (`50 %`).
 - [ ] Entreguei dentro da janela combinada, recebi os restantes `50 %`, marquei como `Entregue & Pago` no Caderno de Encomendas e enviei mensagem cordial `48 h` depois a pedir opinião.
+

@@ -107,3 +107,4 @@ Vamos planear uma fornada padrão perfeitamente viável num **forno doméstico c
 - [ ] Adotou o princípio de **fazer todos os recheios na sexta-feira** e separar os secos por lote.
 - [ ] Calculou a capacidade exata do seu forno doméstico (`quantas formas cabem sem tocar nas paredes?`).
 - [ ] Alinhou o reaproveitamento do miolo dos panetones escavados diretamente para os **Panetones no Copo**.
+

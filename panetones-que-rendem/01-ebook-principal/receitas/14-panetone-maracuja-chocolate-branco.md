@@ -51,3 +51,4 @@
 
 - **Erros comuns:** Juntar sumo de maracujá cru direto no creme quente de leite condensado (talha ou azeda em 24 horas); não reduzir a polpa o suficiente deixando água livre que solta líquido (*sinérese*) dentro do panetone.
 - **Aviso de teste físico:** O teor ácido de maracujás frescos varia conforme a maturação; teste a consistência da ganache após `12 h` no frigorífico e confirme que não liberta líquido durante `3 dias` antes de vender.
+

@@ -52,3 +52,4 @@
 
 - **Erros comuns:** Deixar os minis `30 min` no forno como se fossem grandes (secam completamente virando tosta!); colocar as formas encostadas umas às outras impedindo o calor de circular; ensacar ainda mornos criando gotículas no plástico.
 - **Aviso de teste físico:** Valide o minuto exato de saída (`18–23 min`) no centro do tabuleiro do seu forno doméstico antes de produzir lotes grandes.
+

@@ -49,3 +49,4 @@
 
 - **Erros comuns:** Usar pistácios com sal de aperitivo sem lavar/ajustar (deixa o doce salgado); ferver a pasta pura de pistácio na panela separando o óleo verde; usar corantes artificiais fortes em vez de pasta natural.
 - **Aviso de teste físico:** Valide o ponto final da ganache e a cor/estabilidade da pasta adquirida no seu fornecedor antes de fotografar para venda.
+

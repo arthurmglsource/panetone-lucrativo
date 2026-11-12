@@ -25,3 +25,4 @@
 - [ ] **CA-APP-04:** Caderno de Encomendas e Lista de Compras (10/30/50) com persistência funcional em `localStorage`, cálculo exato do valor em falta após sinal e exportação/impressão limpa.
 - [ ] **CA-APP-05:** Gerador de Etiquetas permite editar nome da marca, produto, peso, ingredientes, alergénios, validade/lote e imprimir em A4.
 - [ ] **CA-APP-06:** Pronta para deploy num projeto Vercel independente (Root Directory = `app/`).
+

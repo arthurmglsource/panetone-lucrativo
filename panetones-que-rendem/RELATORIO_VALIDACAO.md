@@ -81,3 +81,4 @@ Como este projeto é desenvolvido autonomamente em ambiente digital, **os itens 
 ---
 
 **Parecer Final de QA:** Aprovado para avançar para a **Fase 4 — Design Gráfico e Compilação Final em `produto-digital/`** com todas as correções já aplicadas nos ficheiros de origem.
+

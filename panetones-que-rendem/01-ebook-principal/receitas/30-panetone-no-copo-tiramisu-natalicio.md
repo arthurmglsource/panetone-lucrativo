@@ -54,3 +54,4 @@
 
 - **Erros comuns:** Bater demasiado tempo o mascarpone com natas (separa o soro e fica granuloso como manteiga); usar café quente nos cubos derretendo o creme; polvilhar cacau `48 h` antes da entrega deixando-o húmido e escuro.
 - **Aviso de teste físico:** Valide o ponto exato de batimento do mascarpone com as natas da sua marca habitual e verifique o aspeto do cacau após `12–24 h` antes de comercializar.
+

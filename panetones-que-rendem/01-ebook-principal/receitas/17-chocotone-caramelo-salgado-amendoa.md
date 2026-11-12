@@ -48,3 +48,4 @@
 
 - **Erros comuns:** Deixar o açúcar queimar para além do âmbar médio (travo amargo irreversível); juntar natas geladas no caramelo a `170 °C` causando projeção de gotas quentes e bloco sólido de açúcar; omitir o chocolate estabilizador deixando o caramelo escorrer ao cortar o panetone.
 - **Aviso de teste físico:** Valide o ponto final do caramelo após `12 h` no frigorífico para confirmar se segura o corte limpo sem escorrer em demasia.
+

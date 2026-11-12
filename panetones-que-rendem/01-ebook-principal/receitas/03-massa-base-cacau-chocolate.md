@@ -53,3 +53,4 @@
 
 - **Erros comuns:** Substituir `35 g` de farinha por cacau sem aumentar o leite (`+30 ml`), deixando a massa seca; queimar a cúpula no forno por não notar o escurecimento da massa de cacau; misturar pepitas quentes.
 - **Aviso de teste físico:** Valide o tempo exato de forno no seu equipamento usando obrigatoriamente termómetro de sonda, evitando retirar massa crua no centro.
+

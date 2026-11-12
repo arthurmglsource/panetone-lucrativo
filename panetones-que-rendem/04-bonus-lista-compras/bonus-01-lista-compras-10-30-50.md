@@ -105,3 +105,4 @@ Se a sua agenda tiver apenas pedidos de **`500 g` tradicionais e recheados** (ba
 1. Confira o **Caderno de Encomendas (Bónus 02)** e subtraia o que já tem em despensa com validade confortável.
 2. Verifique no verso da farinha o valor exato de **proteína (`>= 11,5–12,5 g/100 g`)**.
 3. Guarde todos os talões de compra no envelope do fim de semana para preencher os preços unitários reais no **Módulo 04 / Calculadora de Preços**.
+

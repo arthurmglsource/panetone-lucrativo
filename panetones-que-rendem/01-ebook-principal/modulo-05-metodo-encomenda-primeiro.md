@@ -99,3 +99,4 @@ Ao fechar o prazo semanal (por exemplo, quinta-feira às `18h00`):
 - [ ] Configurou o seu número de **MB WAY** e confirmou limites diários/mensais da sua conta bancária.
 - [ ] Guardou os **5 guiões de WhatsApp** personalizados com os seus horários e local de levantamento.
 - [ ] Comprometeu-se com a regra central: **0 % de produção comercial sem sinal de 50 % confirmado**.
+

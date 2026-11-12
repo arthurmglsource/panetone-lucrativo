@@ -45,3 +45,4 @@
 
 - **Erros comuns:** Injetar com muita força de uma só vez fazendo rebentar a lateral da forma de papel; usar doce de leite com pedaços/grumos que entopem o bico; esquecer de pesar os primeiros minis e acabar com recheio a menos no oitavo.
 - **Aviso de teste físico:** Pese os `10 minis` antes e depois de injetar durante o teste piloto para padronizar exatamente `38 g–40 g` de recheio e o custo unitário real.
+

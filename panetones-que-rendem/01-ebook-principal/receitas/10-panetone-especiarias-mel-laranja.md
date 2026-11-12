@@ -53,3 +53,4 @@
 
 - **Erros comuns:** Aumentar demasiado a canela ou o cravinho (bloqueiam a fermentação e deixam travo picante amargo); assar a `175 °C–180 °C` queimando a crosta rica em mel antes de cozer o centro.
 - **Aviso de teste físico:** Confirme a temperatura exata do seu forno e use papel de alumínio solto na segunda metade da cozedura se necessário.
+

@@ -97,3 +97,4 @@ Em entregas locais em Portugal, o maior risco estético acontece no transporte: 
 - [ ] Dominou a diferença de ponto entre recheio de injeção/cone, ganache de cobertura e mousse/creme para copo.
 - [ ] Adotou a **Técnica A** para reutilizar o miolo escavado diretamente no **Panetone no Copo**, eliminando desperdício.
 - [ ] Garantiu que todos os produtos com cremes lácteos ou fruta seguem cadeia de frio (`<= 5 °C`) e têm recomendação clara de consumo.
+

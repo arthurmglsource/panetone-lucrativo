@@ -47,3 +47,4 @@
 
 - **Erros comuns:** Usar só chocolate `70 %` sem ajustar açúcar/natas (a ganache fica seca e parte em blocos ao cortar no frio); juntar água demais em vez de café concentrado separando a gordura.
 - **Aviso de teste físico:** Valide o ponto de corte frio conforme a percentagem exata de cacau da marca de chocolate comprada na sua zona.
+

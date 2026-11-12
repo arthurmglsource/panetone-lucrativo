@@ -150,3 +150,4 @@ Se bater massa rica na batedeira durante 15–20 minutos seguidos, o atrito aque
 - [ ] Verificou o teor de **proteína (`>= 11,5–12,5 %`)** da farinha disponível na sua região ou adquiriu farinha de força (`Manitoba` / `Tipo 00 Forte`).
 - [ ] Comprou balança digital de `1 g`, termómetro de sonda e espetos de `25–30 cm` para *tombamento*.
 - [ ] Marcou o seu **primeiro teste físico de calibração** com a Receita 01 para conhecer o comportamento real do seu forno doméstico antes de aceitar encomendas.
+

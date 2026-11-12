@@ -32,3 +32,4 @@ $$\text{Preço Sugerido (€)} = \frac{\text{Custo Total Real Unitário}}{1 - \t
 | **5. Preço de Venda Praticado (Arredondado)** | **`15,00 €`** *(ou `12,50 €` base)* | **`______,__ €`** |
 | **Margem Líquida do Negócio (`Preço - Custo Total Real`)** | **`7,15 €`** (`47,7 %`) | **`______,__ €` (`____ %`)** |
 | **Ganho Total na Sua Mão (`Mão de Obra + Margem Líquida`)** | **`9,65 €`** *(ou `10,00 €` sobre custo direto `5,00 €`)* | **`______,__ €`** |
+

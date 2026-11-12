@@ -57,3 +57,4 @@
 
 - **Erros comuns:** Deixar a esponja passar demasiado do ponto e azedar antes de misturar (se colapsar completamente com cheiro avinagrado intenso, descarte e refaça); usar líquidos quentes na etapa 2 depois da esponja já estar ativa.
 - **Aviso de teste físico:** Valide o tempo exato de fermentação da esponja na temperatura real da sua cozinha e confirme a temperatura de saída (`>= 92 °C`) antes da venda.
+

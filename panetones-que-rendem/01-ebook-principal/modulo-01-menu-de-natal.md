@@ -101,3 +101,4 @@ Com apenas **duas massas base** (clássica e cacau/pepitas) e **três coberturas
 - [ ] Definiu as suas **3 faixas de produto** (Mini, No Copo e `500 g` Clássico/Recheado).
 - [ ] Limitou o menu inicial a **4–6 sabores estratégicos** que partilham ingredientes entre si.
 - [ ] Pesquisou preços reais de formas, sacos/caixas e fitas em fornecedores locais para substituir os valores ilustrativos antes de avançar para o Módulo 04.
+

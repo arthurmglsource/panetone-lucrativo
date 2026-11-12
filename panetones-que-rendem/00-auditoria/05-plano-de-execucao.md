@@ -22,3 +22,4 @@ Para preservar contexto e garantir qualidade premium com checkpoints verificáve
   - Auditoria ortográfica PT-PT e verificação contra regras de veracidade.
   - Testes automatizados de cálculos + inspeção visual em `320px`, `375px` e `1280px` no browser headless.
   - Atualização final de `PROGRESS.md`, `HANDOFF.md` e commits organizados na branch `dev/produto-digital`.
+

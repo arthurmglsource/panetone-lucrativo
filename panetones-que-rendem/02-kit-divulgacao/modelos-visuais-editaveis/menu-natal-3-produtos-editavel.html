@@ -144,10 +144,14 @@
     @media (max-width: 600px) {
       .tier-card { grid-template-columns: 1fr; }
     }
+    @page {
+      size: A4;
+      margin: 10mm;
+    }
     @media print {
       body { background: #ffffff; padding: 0; }
       .toolbar { display: none; }
-      .menu-sheet { box-shadow: none; }
+      .menu-sheet { box-shadow: none; max-width: 100%; }
     }
   </style>
 </head>
@@ -160,7 +164,7 @@
   <main class="menu-sheet">
     <header class="menu-header">
       <span class="badge" contenteditable="true">🎄 Menu Especial de Natal 2026</span>
-      <h1 contenteditable="true">[Nome da Sua Marca Caseira]</h1>
+      <h1 contenteditable="true">[Nome da Sua Marca]</h1>
       <p contenteditable="true">Panetones frescos feitos sob encomenda · Ingredientes selecionados · Portugal</p>
     </header>
 
@@ -217,3 +221,4 @@
   </main>
 </body>
 </html>
+

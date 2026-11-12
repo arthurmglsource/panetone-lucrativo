@@ -53,3 +53,4 @@
 
 - **Erros comuns:** Cortar figos grandes demais (afundam e criam zonas pesadas); usar figos secos duros sem hidratar (roubam humidade ao miolo no dia seguinte); juntar o álcool todo direto sem evaporar/absorver antes (inibe a levedura).
 - **Aviso de teste físico:** Valide o crescimento na 2.ª fermentação e a cor final da crosta (o açúcar amarelo escurece ligeiramente mais rápido) no seu forno antes da venda.
+

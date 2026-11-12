@@ -54,3 +54,4 @@
 
 - **Erros comuns:** Juntar morangos frescos crus em vez de compota cozida (soltam soro rosado no dia seguinte); bater natas demasiado rijas até talhar ao misturar; usar leite frio direto sem ferver na calda reduzindo a validade.
 - **Aviso de teste físico:** Observe os copos após `48 h` refrigerados no teste piloto para confirmar zero separação de líquido (*sinérese*).
+

@@ -54,3 +54,4 @@
 
 - **Erros comuns:** Juntar bacon quente ou azeitonas húmidas que derretem o glúten ao redor; retirar demasiado cedo com o queijo fundido a simular falso cozimento ao toque. Use sempre a sonda para confirmar `>= 93 °C` na massa e não dentro de um pedaço de queijo.
 - **Aviso de teste físico:** Valide o tempo exato de forno e teste o comportamento do produto refrigerado + reaquecido antes de disponibilizar no catálogo.
+

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cartão WhatsApp / Stories Editável — Panetones que Rendem</title>
+  <style>
+    :root {
+      --wine: #4a0d16;
+      --wine-deep: #27070d;
+      --gold: #e5a93b;
+      --gold-light: #f5cf7a;
+      --cream: #fff5e6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #1b0509;
+      color: var(--cream);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+    }
+    .bar {
+      max-width: 420px;
+      width: 100%;
+      background: #2e0a10;
+      border: 1px solid var(--gold);
+      border-radius: 10px;
+      padding: 12px;
+      font-size: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+    .bar button {
+      background: var(--gold);
+      color: var(--wine-deep);
+      border: none;
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    /* Cartão 9:16 (360 x 640 base escalável) */
+    .story-card {
+      width: 360px;
+      height: 640px;
+      background: radial-gradient(circle at top center, #6c2631 0%, var(--wine) 45%, var(--wine-deep) 100%);
+      border: 3px solid var(--gold);
+      border-radius: 22px;
+      padding: 24px 22px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.45);
+    }
+    .story-card::before {
+      content: "";
+      position: absolute;
+      inset: 10px;
+      border: 1px solid rgba(229, 169, 59, 0.35);
+      border-radius: 16px;
+      pointer-events: none;
+    }
+    [contenteditable="true"]:focus {
+      outline: 2px dashed var(--gold-light);
+      background: rgba(255, 255, 255, 0.08);
+    }
+    .top-pill {
+      align-self: center;
+      background: var(--gold);
+      color: var(--wine-deep);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 999px;
+    }
+    .hero-title {
+      font-family: Georgia, serif;
+      text-align: center;
+      font-size: 27px;
+      line-height: 1.15;
+      color: var(--cream);
+      margin: 8px 0 6px 0;
+    }
+    .hero-title span { color: var(--gold); }
+    .hero-sub {
+      text-align: center;
+      font-size: 13px;
+      color: var(--gold-light);
+      margin: 0;
+      line-height: 1.4;
+    }
+    .list-box {
+      background: rgba(255, 245, 230, 0.96);
+      color: #2c1a1c;
+      border-radius: 14px;
+      padding: 14px 16px;
+      border: 2px solid var(--gold);
+    }
+    .list-box h3 {
+      margin: 0 0 8px 0;
+      font-family: Georgia, serif;
+      color: var(--wine);
+      font-size: 16px;
+      text-align: center;
+    }
+    .item-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 6px 0;
+      border-bottom: 1px dashed #d8c2a6;
+    }
+    .item-row:last-child { border-bottom: none; }
+    .price { color: var(--wine); font-weight: 800; }
+    .cta-box {
+      background: linear-gradient(135deg, var(--gold), #d99728);
+      color: var(--wine-deep);
+      border-radius: 14px;
+      padding: 12px 14px;
+      text-align: center;
+      font-weight: 800;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+    .footer-note {
+      text-align: center;
+      font-size: 11px;
+      color: var(--gold-light);
+      line-height: 1.4;
+    }
+    @page {
+      size: 360px 640px;
+      margin: 0;
+    }
+    @media print {
+      body { background: #27070d; padding: 0; margin: 0; }
+      .bar { display: none; }
+      .story-card { box-shadow: none; border-radius: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bar">
+    <span><strong>Stories / Estado WhatsApp (9:16)</strong> — Clique nos textos para editar antes de guardar em PDF ou capturar ecrã.</span>
+    <button onclick="window.print()">Imprimir / PDF</button>
+  </div>
+
+  <article class="story-card">
+    <div class="top-pill" contenteditable="true">🎄 Encomendas de Natal 2026</div>
+
+    <div>
+      <div style="text-align:center; margin-bottom:6px;">
+        <svg width="44" height="44" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" fill="#27070d" stroke="#e5a93b" stroke-width="2"/>
+          <path d="M14 33h20l-2-11c-1-4-4-7-8-7s-7 3-8 7l-2 11z" fill="#e5a93b"/>
+          <path d="M18 20c2-3 10-3 12 0" stroke="#fff5e6" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="24" cy="11" r="2.5" fill="#fff5e6"/>
+        </svg>
+      </div>
+      <h1 class="hero-title" contenteditable="true">Panetones Artesanais <span>por Encomenda</span></h1>
+      <p class="hero-sub" contenteditable="true">Massa fresca com manteiga verdadeira e recheios cremosos feitos na nossa cozinha.</p>
+    </div>
+
+    <div class="list-box">
+      <h3 contenteditable="true">Menu da Fornada — [Data]</h3>
+      <div class="item-row" contenteditable="true">
+        <span>Mini Panetone (120 g)</span>
+        <span class="price">[4,50 €]</span>
+      </div>
+      <div class="item-row" contenteditable="true">
+        <span>Panetone no Copo (220 ml)</span>
+        <span class="price">[5,00 €]</span>
+      </div>
+      <div class="item-row" contenteditable="true">
+        <span>Clássico Frutas (500 g)</span>
+        <span class="price">[11,50 €]</span>
+      </div>
+      <div class="item-row" contenteditable="true">
+        <span>Recheado Premium (760 g)</span>
+        <span class="price">[14,50 €]</span>
+      </div>
+    </div>
+
+    <div class="cta-box" contenteditable="true">
+      RESERVE JÁ POR WHATSAPP: 9XX XXX XXX<br />
+      <span style="font-weight:600; font-size:11.5px;">Confirmação mediante sinal de 50 % por MB WAY</span>
+    </div>
+
+    <div class="footer-note" contenteditable="true">
+      [Sua Marca] · Levantamento em [Bairro/Cidade]<br />
+      Contém glúten, ovos, leite e possíveis frutos secos/soja.
+    </div>
+  </article>
+</body>
+</html>
+

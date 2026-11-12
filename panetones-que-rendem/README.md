@@ -21,3 +21,4 @@ Workspace editorial, técnico e de QA do produto digital **Panetones que Rendem*
 ## Ficheiros de Controlo
 - Ver estado atual em [`PROGRESS.md`](./PROGRESS.md)
 - Ver instruções de continuidade em [`HANDOFF.md`](./HANDOFF.md)
+

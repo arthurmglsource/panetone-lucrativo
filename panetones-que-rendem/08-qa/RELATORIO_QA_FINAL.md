@@ -59,3 +59,4 @@ Consulte [INTEGRACAO_HOTMART_E_SEGURANCA.md](file:///Users/arthurmagalhaes/.gemi
 1. Criar um **novo projeto Vercel separado** ligado ao mesmo repositório GitHub (`dev/produto-digital`, ou após merge controlada em branch dedicada), configurando **Root Directory = `app`**.
 2. Definir as variáveis de ambiente obrigatórias (`SESSION_SECRET`, `HOTMART_HOTTOK`, `KV_REST_API_URL`, `KV_REST_API_TOKEN` e opcionalmente `BUYER_ACCESS_CODES` / `BUYER_MASTER_CODE`). **Não ativar** `ALLOW_PREVIEW_MODE=true` em produção pública.
 3. Registar o webhook da Hotmart para `https://<dominio-app>.vercel.app/api/webhook/hotmart` com os eventos `PURCHASE_APPROVED`, `PURCHASE_COMPLETE`, `PURCHASE_REFUNDED`, `PURCHASE_CANCELED` e `PURCHASE_CHARGEBACK`.
+

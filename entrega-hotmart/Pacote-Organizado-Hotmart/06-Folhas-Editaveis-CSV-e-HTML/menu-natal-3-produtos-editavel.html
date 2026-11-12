@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu de Natal Editável (3 Produtos) — Panetones que Rendem</title>
+  <style>
+    :root {
+      --wine: #4a0d16;
+      --wine-deep: #27070d;
+      --gold: #e5a93b;
+      --gold-light: #f5cf7a;
+      --cream: #fff5e6;
+      --ink: #2c1a1c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #f3e5d1;
+      color: var(--ink);
+    }
+    .toolbar {
+      max-width: 720px;
+      margin: 0 auto 16px auto;
+      background: var(--wine-deep);
+      color: var(--cream);
+      border: 2px solid var(--gold);
+      border-radius: 12px;
+      padding: 12px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      font-size: 13px;
+    }
+    .toolbar button {
+      background: var(--gold);
+      color: var(--wine-deep);
+      border: none;
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+    .menu-sheet {
+      max-width: 720px;
+      margin: 0 auto;
+      background: var(--wine-deep);
+      color: var(--cream);
+      border: 4px solid var(--gold);
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 18px 40px rgba(39, 7, 13, 0.25);
+    }
+    [contenteditable="true"]:focus {
+      outline: 2px dashed var(--gold-light);
+      background: rgba(255, 255, 255, 0.08);
+    }
+    .menu-header {
+      text-align: center;
+      border-bottom: 1px solid rgba(229, 169, 59, 0.45);
+      padding-bottom: 16px;
+      margin-bottom: 20px;
+    }
+    .badge {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--wine-deep);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      padding: 5px 14px;
+      border-radius: 999px;
+      text-transform: uppercase;
+    }
+    .menu-header h1 {
+      font-family: Georgia, serif;
+      font-size: 32px;
+      margin: 10px 0 4px 0;
+      color: var(--gold);
+    }
+    .menu-header p { margin: 0; font-size: 14px; color: var(--cream); opacity: 0.92; }
+
+    .tiers {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+    .tier-card {
+      background: var(--cream);
+      color: var(--ink);
+      border-radius: 14px;
+      padding: 16px 18px;
+      border: 2px solid var(--gold);
+      display: grid;
+      grid-template-columns: 1.6fr 0.7fr;
+      gap: 12px;
+      align-items: center;
+    }
+    .tier-tag {
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: var(--wine);
+      letter-spacing: 0.6px;
+    }
+    .tier-card h2 {
+      font-family: Georgia, serif;
+      font-size: 20px;
+      margin: 3px 0 6px 0;
+      color: var(--wine-deep);
+    }
+    .tier-card p { margin: 0; font-size: 13px; line-height: 1.45; }
+    .price-box {
+      background: var(--wine);
+      color: var(--cream);
+      border-radius: 12px;
+      padding: 12px;
+      text-align: center;
+      border: 1.5px solid var(--gold);
+    }
+    .price-box .val {
+      font-family: Georgia, serif;
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--gold);
+      display: block;
+    }
+    .price-box small { font-size: 11px; display: block; margin-top: 3px; }
+
+    .rules-box {
+      background: rgba(255, 245, 230, 0.08);
+      border: 1px solid rgba(229, 169, 59, 0.45);
+      border-radius: 12px;
+      padding: 14px 16px;
+      font-size: 12.5px;
+      line-height: 1.55;
+    }
+    .rules-box strong { color: var(--gold); }
+
+    @media (max-width: 600px) {
+      .tier-card { grid-template-columns: 1fr; }
+    }
+    @page {
+      size: A4;
+      margin: 10mm;
+    }
+    @media print {
+      body { background: #ffffff; padding: 0; }
+      .toolbar { display: none; }
+      .menu-sheet { box-shadow: none; max-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <span><strong>Menu de Natal Editável (3 Faixas de Preço)</strong> — Personalize sabores, preços em € (Módulo 04) e contactos antes de exportar para PDF/WhatsApp.</span>
+    <button onclick="window.print()">Guardar em PDF / Imprimir</button>
+  </div>
+
+  <main class="menu-sheet">
+    <header class="menu-header">
+      <span class="badge" contenteditable="true">🎄 Menu Especial de Natal 2026</span>
+      <h1 contenteditable="true">[Nome da Sua Marca]</h1>
+      <p contenteditable="true">Panetones frescos feitos sob encomenda · Ingredientes selecionados · Portugal</p>
+    </header>
+
+    <section class="tiers">
+      <!-- PRODUTO 1: ENTRADA / LEMBRANÇA -->
+      <article class="tier-card">
+        <div contenteditable="true">
+          <span class="tier-tag">Faixa 1 · Lembrança Perfeita</span>
+          <h2>Mini Panetone Artesanal (~120 g – 160 g)</h2>
+          <p><strong>Sabores:</strong> Frutas Clássico · Pepitas com Banho de Chocolate · Versão Trufada (Doce de Leite ou Leite em Pó).<br />
+          <em>Embalado individualmente em saco celofane com fita e etiqueta de Natal pronto a oferecer.</em></p>
+        </div>
+        <div class="price-box" contenteditable="true">
+          <span class="val">4,50 €*</span>
+          <small>Trufado: 5,00 €*<br />Pack 4 unid.: 17,00 €*</small>
+        </div>
+      </article>
+
+      <!-- PRODUTO 2: SOBREMESA INDIVIDUAL -->
+      <article class="tier-card">
+        <div contenteditable="true">
+          <span class="tier-tag">Faixa 2 · Sobremesa à Colher</span>
+          <h2>Panetone no Copo (220 ml)</h2>
+          <p><strong>Sabores:</strong> Chocolate Intenso 54 % · Leite em Pó c/ Frutos Vermelhos · Doce de Leite e Nozes · Maracujá · Avelã.<br />
+          <em>Camadas generosas de cubos de panetone húmidos com creme caseiro. Conservar no frigorífico.</em></p>
+        </div>
+        <div class="price-box" contenteditable="true">
+          <span class="val">5,00 €*</span>
+          <small>Inclui tampa bolha,<br />selo e colher</small>
+        </div>
+      </article>
+
+      <!-- PRODUTO 3: MESA DE NATAL -->
+      <article class="tier-card">
+        <div contenteditable="true">
+          <span class="tier-tag">Faixa 3 · Centro de Mesa &amp; Presente</span>
+          <h2>Panetone / Chocotone 500 g+</h2>
+          <p><strong>Clássico (500 g):</strong> Frutas &amp; Sultanas ou Laranja c/ Crosta de Amêndoa.<br />
+          <strong>Recheado Premium (~760 g):</strong> Duplo Chocolate · Creme Leite em Pó · Doce de Leite &amp; Flor de Sal · Maracujá · Avelã.</p>
+        </div>
+        <div class="price-box" contenteditable="true">
+          <span class="val">14,50 €*</span>
+          <small>Clássico s/ recheio: 11,50 €*<br />Caixa/saco presente</small>
+        </div>
+      </article>
+    </section>
+
+    <footer class="rules-box" contenteditable="true">
+      <strong>Como Encomendar (Método Encomenda Primeiro):</strong><br />
+      1. Escolha os seus sabores e envie mensagem para o WhatsApp <strong>[9XX XXX XXX]</strong> até <strong>[Quinta-feira às 18h00]</strong>.<br />
+      2. A sua vaga fica confirmada mediante <strong>sinal de 50 % por MB WAY</strong> (restantes 50 % no levantamento/entrega).<br />
+      3. Levantamento gratuito em <strong>[Bairro/Localidade]</strong> ou entregas sob consulta. <em>*Preços ilustrativos de referência: substitua pelos valores da sua ficha técnica (Módulo 04) antes de divulgar. Contém glúten, ovos, leite e possíveis vestígios de frutos secos/soja.</em>
+    </footer>
+  </main>
+</body>
+</html>
+

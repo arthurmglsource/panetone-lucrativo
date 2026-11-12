@@ -1,4 +1,4 @@
-Pedido_ID;Data_Pedido;Cliente;Telemovel_WhatsApp;Produto_Sabor;Quantidade;Valor_Total_EUR;Sinal_50pct_EUR;Sinal_Pago_MBWAY;Data_Sinal;Valor_Em_Falta_EUR;Data_Producao;Data_Hora_Entrega;Tipo_Entrega;Alergenos_Observacoes;Estado
+﻿Pedido_ID;Data_Pedido;Cliente;Telemovel_WhatsApp;Produto_Sabor;Quantidade;Valor_Total_EUR;Sinal_50pct_EUR;Sinal_Pago_MBWAY;Data_Sinal;Valor_Em_Falta_EUR;Data_Producao;Data_Hora_Entrega;Tipo_Entrega;Alergenos_Observacoes;Estado
 EX-001;2026-12-10;Ana Silva (EXEMPLO ILUSTRATIVO);910000000;1x Recheado Leite em Pó + 2x Mini Pepitas;3;23.50;=G2*0.5;SIM;2026-12-10;=IF(I2="SIM",G2-H2,G2);2026-12-12;2026-12-13 16:00;Levantamento;Exemplo ilustrativo — sem restrições comunicadas;Confirmado
 EX-002;2026-12-10;João Pereira (EXEMPLO ILUSTRATIVO);960000000;2x Panetone no Copo Avelã + 1x Clássico Frutas;3;21.50;=G3*0.5;NAO;;=IF(I3="SIM",G3-H3,G3);2026-12-12;2026-12-13 17:30;Entrega Local;Exemplo ilustrativo — confirmar sinal em 24h;Aguarda Sinal
 001;;;;;0;0;=G4*0.5;NAO;;=IF(I4="SIM",G4-H4,G4);;;;;Aguarda Sinal

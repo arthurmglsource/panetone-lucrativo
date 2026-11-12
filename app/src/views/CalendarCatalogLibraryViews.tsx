@@ -586,7 +586,7 @@ export function LibraryBonusView({
           PDFs & Editáveis ({content.downloads.length})
         </button>
         <button type="button" className={`chip ${subTab === 'modules' ? 'active' : ''}`} onClick={() => setSubTab('modules')}>
-          Ler os 6 Módulos & FAQ
+          {content.isDemoMode ? 'Guia Amostra & FAQ' : 'Ler os 6 Módulos & FAQ'}
         </button>
         <button type="button" className={`chip ${subTab === 'scripts' ? 'active' : ''}`} onClick={() => setSubTab('scripts')}>
           Scripts WhatsApp ({content.whatsappScripts.length})
@@ -617,6 +617,12 @@ export function LibraryBonusView({
               </button>
             ))}
           </div>
+
+          {content.isDemoMode && (
+            <div className="notice notice-warn" style={{ marginBottom: 12 }}>
+              <strong>Downloads bloqueados no Modo Demonstração QA:</strong> para proteger a propriedade intelectual do produto pago, os 24 ficheiros finais (e-books PDF, 3 bónus, kit WhatsApp, etiquetas A4 e CSVs) só ficam disponíveis após autenticação como comprador.
+            </div>
+          )}
 
           <div className="grid-2">
             {filteredDownloads.map((item) => (

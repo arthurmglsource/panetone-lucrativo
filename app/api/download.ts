@@ -11,6 +11,11 @@ export default async function handler(req: any, res: any) {
   if (!session) {
     return res.status(401).json({ error: 'Acesso negado. Inicie sessão para descarregar os materiais.' });
   }
+  if (session.mode !== 'buyer') {
+    return res.status(403).json({
+      error: 'Modo Demonstração QA: a descarga dos PDFs e editáveis completos está reservada a sessões de comprador.',
+    });
+  }
 
   const rawFile = String((req.query && req.query.file) || '');
   const safeName = path.basename(rawFile);

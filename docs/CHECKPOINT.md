@@ -26,3 +26,12 @@
 - **Branch:** `dev/produto-digital` (nenhum ficheiro da landing page `main` modificado).
 - **Aplicação:** pasta isolada `app/` com dependências próprias (`React 19`, `Vite 6`, `TypeScript`, `Vitest`), sincronização automática com `panetones-que-rendem/` e `produto-digital/`, e backend serverless `app/api/*` com sessão `HttpOnly`.
 - **Verificações após últimas alterações:** `npm test` (`9/9`), `npm run build` (`0` leaks em `dist/`), segurança HTTP (`401`/`400`/`200 %PDF-`) e E2E CDP em `390×844` + `1280×840` (`0` erros de consola). Relatório completo em `panetones-que-rendem/08-qa/RELATORIO_QA_FINAL.md`.
+
+
+---
+
+## Finalização Completa para Distribuição Hotmart — 2026-11-12
+
+- **Pacote Hotmart:** `entrega-hotmart/Pacote-Organizado-Hotmart/` + `Pacote-Completo-Panetones-que-Rendem.zip` (`21.72 MB`, verificado `unzip -tq`).
+- **Documentação Final:** `README.md`, `docs/MANUAL_HOTMART.md`, `docs/RELATORIO_QA.md`, `docs/PENDENCIAS.md` e `docs/HANDOFF.md`.
+- **Pendências externas explícitas:** Deploy remoto na Vercel (sem CLI/token ativo neste ambiente), configuração Webhook/Club na Hotmart e validações físicas de cozinha/contabilidade pelo utilizador.

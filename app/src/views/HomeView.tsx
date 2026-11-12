@@ -96,6 +96,12 @@ export function HomeView({
         )}
       </section>
 
+      {content.isDemoMode && (
+        <div className="notice notice-warn" role="status" style={{ marginBottom: 14 }}>
+          <strong>Versão de Demonstração QA ativa:</strong> tem acesso a {content.recipes.length} receitas de amostra e a todas as ferramentas interativas (Modo Cozinha, Escalonamento, Calculadora €, Encomendas, Compras, Calendário e Catálogo PNG). As 30 receitas integrais, 6 módulos e 24 descargas protegidas desbloqueiam exclusivamente na sessão de comprador.
+        </div>
+      )}
+
       {/* Real Orders & Progress KPIs (never fake sample revenue) */}
       <div className="kpi-grid">
         <div className="kpi-tile">

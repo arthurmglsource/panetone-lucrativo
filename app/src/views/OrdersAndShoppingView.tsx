@@ -881,3 +881,4 @@ export function ShoppingListView({
     </div>
   );
 }
+

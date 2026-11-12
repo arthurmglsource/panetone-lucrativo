@@ -12,12 +12,13 @@ export default async function handler(req: any, res: any) {
   }
 
   const baseDir = typeof __dirname !== 'undefined' ? __dirname : process.cwd();
-  const { dataPath } = resolveAppPaths(baseDir);
-  if (!fs.existsSync(dataPath)) {
+  const { dataPath, demoDataPath } = resolveAppPaths(baseDir);
+  const targetPath = session.mode === 'preview' ? demoDataPath : dataPath;
+  if (!fs.existsSync(targetPath)) {
     return res.status(500).json({ error: 'Conteúdo protegido ainda não sincronizado.' });
   }
 
   res.setHeader('Content-Type', 'application/json; charset=utf-8');
   res.setHeader('Cache-Control', 'private, no-store');
-  return res.status(200).send(fs.readFileSync(dataPath, 'utf-8'));
+  return res.status(200).send(fs.readFileSync(targetPath, 'utf-8'));
 }

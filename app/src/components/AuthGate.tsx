@@ -132,7 +132,7 @@ export function AuthGate({
         {previewAllowed && (
           <div style={{ marginTop: 14, paddingTop: 14, borderTop: '1px dashed var(--border)' }}>
             <div style={{ fontSize: 12, color: 'var(--muted)', marginBottom: 8 }}>
-              <strong>Ambiente de Desenvolvimento / Pré-visualização Autorizada:</strong> valide todos os módulos sem expor credenciais no cliente.
+              <strong>Modo Demonstração QA (Amostra Segura):</strong> testa todas as ferramentas interativas com 2 receitas de amostra, sem expor as restantes 28 receitas nem os 24 downloads pagos.
             </div>
             <button
               type="button"
@@ -140,7 +140,7 @@ export function AuthGate({
               disabled={loading}
               onClick={handlePreviewEnter}
             >
-              <Sparkles size={16} /> Entrar em Pré-visualização Segura
+              <Sparkles size={16} /> Entrar em Demonstração QA (Segura)
             </button>
           </div>
         )}

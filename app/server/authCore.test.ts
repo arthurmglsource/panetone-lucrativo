@@ -79,3 +79,4 @@ describe('Segurança de Sessão & Validação de Compradores', () => {
     expect(verifyConfiguredBuyerCode('ana@sapo.pt', 'CODIGO-ERRADO')).toBe(false);
   });
 });
+

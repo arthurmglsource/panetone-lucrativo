@@ -1,4 +1,4 @@
-Lote;Periodo_Divulgacao;Fecho_Pedidos_50pct;Dia_Compras;Dia_Producao_Massa_Forno;Dia_Recheio_Embalagem;Janela_Entregas;Capacidade_Maxima_Unid;Unidades_Confirmadas;Vagas_Restantes;Observacoes
+﻿Lote;Periodo_Divulgacao;Fecho_Pedidos_50pct;Dia_Compras;Dia_Producao_Massa_Forno;Dia_Recheio_Embalagem;Janela_Entregas;Capacidade_Maxima_Unid;Unidades_Confirmadas;Vagas_Restantes;Observacoes
 Lote 0 (Teste);2026-11-16 a 2026-11-22;Uso interno;2026-11-20;2026-11-21;2026-11-22;Degustação e fotos;6;0;=H2-I2;Calibrar forno 92-94C e fotografar cortes reais
 Lote 1 (Abertura);2026-11-23 a 2026-11-26;2026-11-26 18:00;2026-11-27;2026-11-28;2026-11-29;2026-11-29 15:00-19:00;15;0;=H3-I3;Primeiro lote comercial com margem de segurança
 Lote 2 (Ponte 8 Dez);2026-11-30 a 2026-12-03;2026-12-03 18:00;2026-12-04;2026-12-05;2026-12-06;2026-12-06 e 07;20;0;=H4-I4;Foco em famílias e packs fim de semana alargado

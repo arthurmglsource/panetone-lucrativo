@@ -39,3 +39,4 @@ Ao criar o projeto independente na Vercel apontando o **Root Directory** para `a
    - Selecione os eventos `PURCHASE_APPROVED`, `PURCHASE_COMPLETE`, `PURCHASE_REFUNDED`, `PURCHASE_CANCELED` e `PURCHASE_CHARGEBACK`.
 3. Copie o **Hottok** gerado pela Hotmart para a variável `HOTMART_HOTTOK` na Vercel.
 4. No e-mail de boas-vindas pós-compra na Hotmart, instrua o cliente a aceder ao URL da aplicação com o **mesmo e-mail da compra** e o **Código da Transação (`HP...`)**.
+

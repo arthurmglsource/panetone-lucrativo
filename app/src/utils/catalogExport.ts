@@ -172,3 +172,4 @@ export async function exportCatalogAsPng(config: CatalogConfig): Promise<void> {
   a.click();
   URL.revokeObjectURL(a.href);
 }
+

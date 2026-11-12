@@ -26,12 +26,14 @@ export function resolveAppPaths(baseDir?: string) {
     if (fs.existsSync(path.join(dir, 'protected-data', 'content.json'))) {
       return {
         dataPath: path.join(dir, 'protected-data', 'content.json'),
+        demoDataPath: path.join(dir, 'protected-data', 'demo-content.json'),
         downloadsDir: path.join(dir, 'protected-downloads'),
       };
     }
   }
   return {
     dataPath: path.join(process.cwd(), 'protected-data', 'content.json'),
+    demoDataPath: path.join(process.cwd(), 'protected-data', 'demo-content.json'),
     downloadsDir: path.join(process.cwd(), 'protected-downloads'),
   };
 }

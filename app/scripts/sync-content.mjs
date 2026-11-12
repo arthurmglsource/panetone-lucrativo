@@ -336,7 +336,7 @@ function parseRecipe(filePath) {
       safetyNote: getKv(consSec, 'Nota de Segurança') || getKv(consSec, 'Nota') || undefined,
     },
     errorsAndTesting: {
-      commonErrors: getKv(errSec, 'Erros comuns') || '',
+      commonErrors: getKv(errSec, 'Erros comuns') || getKv(errSec, 'Erros mais frequentes') || '',
       testingNotice: getKv(errSec, 'Aviso de teste') || 'Efetue sempre teste prévio de cozedura e textura na sua cozinha.',
     },
     defaultReferencePriceEur: meta.defaultPrice,
@@ -611,15 +611,20 @@ function syncProtectedDownloads() {
     { id: 'dl-caderno-op', src: 'materiais/caderno-operacional-custos-calendario-rotulagem.pdf', title: 'Caderno Operacional, Calendário & Rotulagem ASAE', description: 'Fórmulas de custos em €, calendário 2026 e regras legais UE 1169/2011.', category: 'materiais', format: 'PDF' },
     { id: 'dl-catalogo', src: 'materiais/catalogo-natal-personalizavel.pdf', title: 'Catálogo de Natal — Menu 3 Produtos (PDF A4)', description: 'Menu visual nas 3 faixas de preço do método.', category: 'materiais', format: 'PDF' },
     { id: 'dl-etiquetas', src: 'materiais/etiquetas-marca-propria-a4.pdf', title: 'Etiquetas Marca Própria + Contrarótulo (A4)', description: 'Tags De/Para, cintas, selos invioláveis e tabela nutricional/alergénios.', category: 'materiais', format: 'PDF' },
+    { id: 'dl-kit-card-pdf', src: 'materiais/kit-divulgacao-natal/card-whatsapp-abertura.pdf', title: 'Cartão Abertura WhatsApp (PDF 9:16)', description: 'Cartão vetorial pronto a partilhar ou imprimir.', category: 'materiais', format: 'PDF' },
+    { id: 'dl-kit-feed-pdf', src: 'materiais/kit-divulgacao-natal/post-feed-sabores.pdf', title: 'Post 5 Sabores Principais (PDF 1:1)', description: 'Folheto quadrado pronto para redes sociais ou WhatsApp.', category: 'materiais', format: 'PDF' },
     { id: 'dl-png-card', src: 'imagens/card-whatsapp-abertura.png', title: 'Cartão Abertura de Encomendas (Stories / Estado 9:16)', description: 'Imagem PNG pronta a partilhar no WhatsApp e Instagram.', category: 'imagens', format: 'PNG' },
     { id: 'dl-png-feed', src: 'imagens/post-feed-sabores.png', title: 'Post 5 Sabores Principais (Feed 1:1)', description: 'Imagem quadrada em alta resolução.', category: 'imagens', format: 'PNG' },
     { id: 'dl-png-menu', src: 'imagens/menu-natal-3-produtos.png', title: 'Imagem Menu de Natal 3 Faixas', description: 'Pronta a enviar em PDF ou imagem no chat.', category: 'imagens', format: 'PNG' },
     { id: 'dl-csv-calc', src: 'editaveis/calculadora-custos-e-precos-editavel.csv', title: 'Calculadora de Custos e Lucro (.csv)', description: 'Folha Excel / LibreOffice / Google Sheets com fórmulas em €.', category: 'editaveis', format: 'CSV' },
     { id: 'dl-csv-enc', src: 'editaveis/caderno-encomendas-editavel.csv', title: 'Caderno de Encomendas Editável (.csv)', description: 'Folha com cálculo automático de sinais 50 % e saldo restante.', category: 'editaveis', format: 'CSV' },
+    { id: 'dl-csv-cal', src: 'editaveis/calendario-producao-entregas-editavel.csv', title: 'Calendário de Produção e Entregas 2026 (.csv)', description: 'Lotes sazonais de Natal e controlo automático de vagas restantes.', category: 'editaveis', format: 'CSV' },
     { id: 'dl-csv-lista', src: 'editaveis/lista-compras-editavel-10-30-50.csv', title: 'Lista de Compras 10/30/50 Editável (.csv)', description: 'Campos de preço unitário e orçamento automático.', category: 'editaveis', format: 'CSV' },
     { id: 'dl-csv-forn', src: 'editaveis/comparador-fornecedores-editavel.csv', title: 'Comparador de Fornecedores (.csv)', description: 'Compara preço por kg/unidade incluindo portes e IVA.', category: 'editaveis', format: 'CSV' },
     { id: 'dl-html-etq', src: 'editaveis/etiquetas-editaveis-a4.html', title: 'Editor HTML de Etiquetas A4 no Browser', description: 'Personalize o nome da sua marca, contactos e ingredientes antes de imprimir.', category: 'editaveis', format: 'HTML' },
     { id: 'dl-html-menu', src: 'editaveis/menu-natal-3-produtos-editavel.html', title: 'Editor HTML Menu de Natal (3 Produtos)', description: 'Edite os preços e exporte o catálogo do navegador.', category: 'editaveis', format: 'HTML' },
+    { id: 'dl-html-card', src: 'editaveis/card-whatsapp-abertura-editavel.html', title: 'Editor HTML Cartão WhatsApp (9:16)', description: 'Personalize a mensagem de abertura de encomendas e exporte do navegador.', category: 'editaveis', format: 'HTML' },
+    { id: 'dl-html-feed', src: 'editaveis/post-feed-sabores-editavel.html', title: 'Editor HTML Post Sabores (1:1)', description: 'Personalize os sabores e destaque a sua marca antes de exportar.', category: 'editaveis', format: 'HTML' },
   ];
 
   // Clear old downloads cleanly
@@ -672,6 +677,7 @@ function main() {
 
   const payload = {
     generatedAt: new Date().toISOString(),
+    isDemoMode: false,
     brand: {
       name: 'Panetones que Rendem',
       edition: 'Natal 2026 · Portugal (PT-PT)',
@@ -690,10 +696,29 @@ function main() {
     downloads,
   };
 
+  // Versão segura para Demonstração / QA: apenas 2 receitas de amostra, 1 módulo e zero downloads pagos expostos
+  const demoPayload = {
+    generatedAt: payload.generatedAt,
+    isDemoMode: true,
+    brand: payload.brand,
+    recipes: recipes.filter((r) => r.id === 1 || r.id === 25),
+    modules: modules.slice(0, 1),
+    sevenDaysPlan: sevenDaysPlan.slice(0, 2),
+    startupChecklist: startupChecklist.slice(0, 4),
+    faqItems: faqItems.slice(0, 2),
+    suppliers: suppliers.slice(0, 3),
+    whatsappScripts: whatsappScripts.slice(0, 3),
+    referenceBatches,
+    weekendSchedule,
+    downloads: [],
+  };
+
   const outPath = path.join(PROTECTED_DATA_DIR, 'content.json');
+  const demoOutPath = path.join(PROTECTED_DATA_DIR, 'demo-content.json');
   fs.writeFileSync(outPath, JSON.stringify(payload, null, 2), 'utf-8');
+  fs.writeFileSync(demoOutPath, JSON.stringify(demoPayload, null, 2), 'utf-8');
   console.log(
-    `[sync-content] Sincronizado com sucesso: ${recipes.length} receitas, ${modules.length} módulos, ${suppliers.length} fornecedores, ${whatsappScripts.length} scripts, ${downloads.length} ficheiros protegidos.`
+    `[sync-content] Sincronizado com sucesso: ${recipes.length} receitas (demo: ${demoPayload.recipes.length}), ${modules.length} módulos, ${suppliers.length} fornecedores, ${whatsappScripts.length} scripts, ${downloads.length} ficheiros protegidos.`
   );
 }
 

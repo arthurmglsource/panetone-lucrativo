@@ -117,3 +117,4 @@ describe('Integridade do Conteúdo Sincronizado & Lógica de Negócio', () => {
     expect(csv).toContain('30.00'); // falta receber ENC-001
   });
 });
+

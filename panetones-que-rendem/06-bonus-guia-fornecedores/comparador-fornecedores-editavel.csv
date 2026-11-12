@@ -1,4 +1,4 @@
-Categoria;Produto_Procurado;Fornecedor_A;Preco_Embalagem_A_EUR;Qtd_Embalagem_A_kg_L_unid;Portes_A_EUR;Custo_Unitario_Real_A;Fornecedor_B;Preco_Embalagem_B_EUR;Qtd_Embalagem_B_kg_L_unid;Portes_B_EUR;Custo_Unitario_Real_B;Melhor_Opcao;Data_Cotacao;Notas
+﻿Categoria;Produto_Procurado;Fornecedor_A;Preco_Embalagem_A_EUR;Qtd_Embalagem_A_kg_L_unid;Portes_A_EUR;Custo_Unitario_Real_A;Fornecedor_B;Preco_Embalagem_B_EUR;Qtd_Embalagem_B_kg_L_unid;Portes_B_EUR;Custo_Unitario_Real_B;Melhor_Opcao;Data_Cotacao;Notas
 Farinhas;Farinha Manitoba / Alta Força (1 kg ou 5 kg);;0;0;0;=IF(E2>0,(D2+F2)/E2,0);;0;0;0;=IF(J2>0,(I2+K2)/J2,0);=IF(AND(E2>0,J2>0),IF(G2<=L2,C2,H2),"");;Confirmar >=12g proteína/100g e se preço inclui IVA
 Laticinios;Manteiga sem sal (>=80-82% MG);;0;0;0;=IF(E3>0,(D3+F3)/E3,0);;0;0;0;=IF(J3>0,(I3+K3)/J3,0);=IF(AND(E3>0,J3>0),IF(G3<=L3,C3,H3),"");;Evitar cremes vegetais de barrar com água
 Laticinios;Natas para bater (>=35% MG);;0;0;0;=IF(E4>0,(D4+F4)/E4,0);;0;0;0;=IF(J4>0,(I4+K4)/J4,0);=IF(AND(E4>0,J4>0),IF(G4<=L4,C4,H4),"");;Confirmar validade >= 2 semanas

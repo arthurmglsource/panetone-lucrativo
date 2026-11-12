@@ -1,0 +1,1115 @@
+{
+  "generatedAt": "2026-11-12T22:47:06.523Z",
+  "isDemoMode": true,
+  "brand": {
+    "name": "Panetones que Rendem",
+    "edition": "Natal 2026 · Portugal (PT-PT)",
+    "currency": "EUR",
+    "characterNote": "Inês Martins é uma personagem ilustrativa da marca. Valores e prazos são orientativos e exigem calibração física."
+  },
+  "recipes": [
+    {
+      "id": 1,
+      "slug": "01-massa-base-metodo-direto",
+      "title": "Massa Base Método Direto (Clássica / Neutra)",
+      "shortTitle": "Massa Base Método Direto",
+      "category": "massas-base",
+      "categoryLabel": "Bloco A · Massas Base",
+      "blockSubtitle": "A receita mãe de arranque do guia. Pensada para quem quer produzir no próprio dia sem pré-fermento noturno, mantendo estrutura elástica suficiente para versões clássicas ou recheadas.",
+      "image": "/media/panetone-classico.jpg",
+      "yieldText": "2 unidades de 500 g (~530 g de massa crua por forma) ou 9 Mini Panetones de ~115 g (~1.050 g de massa base antes das inclusões opcionais)",
+      "baseYieldUnits": 2,
+      "unitTypeLabel": "unid. (500 g+)",
+      "packageType": "500g",
+      "isFilled": false,
+      "difficulty": "Média (iniciante com termómetro e balança)",
+      "activeTime": "~40 min | Tempo total (fermentação + forno + tombamento): ~5 h – 6 h até sair do forno + 8–12 h arrefecimento",
+      "totalTime": "~5 h",
+      "ovenTemp": "165 °C (estático cima/baixo) | Temperatura interna final no miolo: 92 °C – 94 °C",
+      "utensils": [
+        "Balança digital de 1 g e termómetro de sonda",
+        "Batedeira planetária com gancho (ou raspa de padeiro para método manual descrito no Módulo 02)",
+        "2 formas de papel forneáveis de 500 g (ou 9 formas mini de 100 g)",
+        "4 espetos de madeira/aço de 25–30 cm e dois apoios altos para tombamento"
+      ],
+      "ingredients": [
+        {
+          "id": "ing-1",
+          "raw": "500 g de farinha de trigo de força (Manitoba, Tipo 00 Forte ou T55/T65 com >= 12 % proteína)",
+          "group": "Massa Principal",
+          "name": "Farinha de trigo de força (Manitoba, Tipo 00 Forte ou T55/T65 com >= 12 % proteína)",
+          "normalizedKey": "farinha-forca",
+          "shoppingCategory": "massa",
+          "quantity": 500,
+          "unit": "g"
+        },
+        {
+          "id": "ing-2",
+          "raw": "180 ml de água ou leite meio-gordo bem frio (4 °C – 8 °C)",
+          "group": "Massa Principal",
+          "name": "Água ou leite meio-gordo bem frio (4 °C – 8 °C)",
+          "normalizedKey": "leite-meio-gordo",
+          "shoppingCategory": "massa",
+          "quantity": 180,
+          "unit": "ml"
+        },
+        {
+          "id": "ing-3",
+          "raw": "120 g de açúcar branco fino",
+          "group": "Massa Principal",
+          "name": "Açúcar branco fino",
+          "normalizedKey": "acucar-fino",
+          "shoppingCategory": "massa",
+          "quantity": 120,
+          "unit": "g"
+        },
+        {
+          "id": "ing-4",
+          "raw": "120 g de manteiga sem sal (80–82 % MG), fria em ponto pomada (16 °C – 18 °C), em cubos",
+          "group": "Massa Principal",
+          "name": "Manteiga sem sal (80–82 % MG), fria em ponto pomada (16 °C – 18 °C), em cubos",
+          "normalizedKey": "manteiga-sem-sal",
+          "shoppingCategory": "massa",
+          "quantity": 120,
+          "unit": "g"
+        },
+        {
+          "id": "ing-5",
+          "raw": "90 g de gemas de ovo (aprox. 5 gemas tamanho L)",
+          "group": "Massa Principal",
+          "name": "Gemas de ovo (aprox. 5 gemas tamanho L)",
+          "normalizedKey": "gemas-ovos",
+          "shoppingCategory": "massa",
+          "quantity": 90,
+          "unit": "g"
+        },
+        {
+          "id": "ing-6",
+          "raw": "25 g de mel de flores ou rosmaninho",
+          "group": "Massa Principal",
+          "name": "Mel de flores ou rosmaninho",
+          "normalizedKey": "mel",
+          "shoppingCategory": "massa",
+          "quantity": 25,
+          "unit": "g"
+        },
+        {
+          "id": "ing-7",
+          "raw": "25 g de fermento de padeiro fresco (ou 8 g de fermento de padeiro seco instantâneo)",
+          "group": "Massa Principal",
+          "name": "Fermento de padeiro fresco (ou 8 g de fermento de padeiro seco instantâneo)",
+          "normalizedKey": "fermento-padeiro",
+          "shoppingCategory": "massa",
+          "quantity": 25,
+          "unit": "g"
+        },
+        {
+          "id": "ing-8",
+          "raw": "8 g de sal fino",
+          "group": "Massa Principal",
+          "name": "Sal fino",
+          "normalizedKey": "sal-fino",
+          "shoppingCategory": "massa",
+          "quantity": 8,
+          "unit": "g"
+        },
+        {
+          "id": "ing-9",
+          "raw": "10 g de raspa fresca de laranja e limão (só a parte colorida)",
+          "group": "Massa Principal",
+          "name": "Raspa fresca de laranja e limão (só a parte colorida)",
+          "normalizedKey": "10-g-de-raspa-fresca-de-laranja-",
+          "shoppingCategory": "massa",
+          "quantity": 10,
+          "unit": "g"
+        },
+        {
+          "id": "ing-10",
+          "raw": "8 ml (~1,5 colheres de chá) de pasta ou extrato natural de baunilha",
+          "group": "Massa Principal",
+          "name": "Pasta ou extrato natural de baunilha",
+          "normalizedKey": "extrato-baunilha",
+          "shoppingCategory": "massa",
+          "quantity": 8,
+          "unit": "ml"
+        },
+        {
+          "id": "ing-11",
+          "raw": "(Inclusões opcionais no final desta massa base: 220 g a 260 g de pepitas de chocolate forneáveis OU frutas cristalizadas hidratadas — ver Receitas 05 e 11–15).",
+          "group": "Massa Principal",
+          "name": "(Inclusões opcionais no final desta massa base: 220 g a 260 g de pepitas de chocolate forneáveis OU frutas cristalizadas hidratadas — ver Receitas 05 e 11–15).",
+          "normalizedKey": "pepitas-chocolate",
+          "shoppingCategory": "massa",
+          "quantity": null,
+          "unit": ""
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "title": "Ativar/preparar o fermento",
+          "text": "Se usar fermento fresco, dissolva os 25 g em 50 ml dos 180 ml de líquido ligeiramente amornado (25 °C) com 10 g do açúcar durante 5 min. Se usar fermento seco instantâneo (8 g), misture-o diretamente na farinha com o líquido frio.",
+          "suggestedMinutes": [
+            5
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Primeira hidratação",
+          "text": "Na taça da batedeira, coloque a farinha, o fermento preparado, 90 g do açúcar, a baunilha, a raspa de cítricos, o mel e o restante líquido frio. Misture em velocidade baixa (vel. 1–2) durante 3 min até agregar.",
+          "suggestedMinutes": [
+            3
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Desenvolver o glúten inicial",
+          "text": "Adicione as 90 g de gemas aos poucos e o restante açúcar (20 g–30 g), batendo em velocidade média (vel. 2–3) por 6 a 8 min até obter uma massa homogénea e firme que descola do fundo da taça. Junte os 8 g de sal e bata mais 2 min.",
+          "suggestedMinutes": [
+            6,
+            2
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Incorporar a manteiga (etapa crítica)",
+          "text": "Com a batedeira em velocidade média-baixa, junte os cubos de manteiga (120 g) em 4 ou 5 adições, esperando a absorção completa de cada porção antes da seguinte (8 a 10 min). Verifique com o termómetro: se a massa ultrapassar 26 °C, pare e leve a taça 15 min ao frigorífico antes de prosseguir.",
+          "suggestedMinutes": [
+            8,
+            15
+          ]
+        },
+        {
+          "number": 5,
+          "title": "Confirmar o Ponto de Véu",
+          "text": "Estique um pedaço pequeno da massa entre os dedos; deve formar uma película fina sem rasgar. (Se for adicionar pepitas frias ou frutas para versões simples, misture agora em velocidade mínima por 30 s apenas).",
+          "suggestedMinutes": []
+        },
+        {
+          "number": 6,
+          "title": "Primeira fermentação (em bloco)",
+          "text": "Forme uma bola, coloque numa taça untada, cubra com película ou tampa e deixe fermentar a 25 °C–27 °C durante 1 h 15 a 1 h 45 (ou 2 h 30–3 h 30 a 20 °C) até dobrar de volume.",
+          "suggestedMinutes": [
+            75,
+            105,
+            150
+          ]
+        },
+        {
+          "number": 7,
+          "title": "Divisão e Boleamento",
+          "text": "Despeje suavemente na bancada limpa (ligeiramente untada com manteiga, sem farinha extra), divida em 2 porções de ~530 g (ou 9 de ~115 g), boleie criando tensão na cúpula e coloque nas formas de papel.",
+          "suggestedMinutes": []
+        },
+        {
+          "number": 8,
+          "title": "Segunda fermentação",
+          "text": "Cubra frouxamente com plástico alto e deixe crescer até a cúpula atingir 1,5 cm a 2 cm abaixo do bordo da forma (2 h–3 h em local morno a 26 °C, ou mais em cozinhas frias).",
+          "suggestedMinutes": [
+            120,
+            180
+          ]
+        },
+        {
+          "number": 9,
+          "title": "Forno",
+          "text": "Pré-aqueça a 165 °C (estático). Se não levar cobertura posterior, pode fazer um corte raso em cruz no topo e colocar 5 g de manteiga. Asse no terço inferior durante 35 a 42 min (500 g) ou 18 a 22 min (minis) até atingir 92 °C – 94 °C no centro com a sonda.",
+          "suggestedMinutes": [
+            35,
+            18
+          ]
+        },
+        {
+          "number": 10,
+          "title": "Tombamento obrigatório (500 g)",
+          "text": "Nos primeiros 2 min fora do forno, espete 2 espetos por base e pendure de cabeça para baixo entre apoios durante 8 a 12 horas até arrefecer completamente.",
+          "suggestedMinutes": [
+            720,
+            2
+          ]
+        }
+      ],
+      "conservation": {
+        "application": "Base limpa ideal para escavar e rechear (Receitas 11–18), servir como pão natalício simples ou produzir cubos para Panetone no Copo.",
+        "shelfLife": "Depois de totalmente fria, conserve bem vedada em saco próprio à temperatura ambiente fresca (16 °C–20 °C) por 5 a 7 dias. Nunca coloque a massa simples sem recheio no frigorífico. Para congelar, envolva bem em película dupla + saco sem ar até 60–90 dias a -18 °C.",
+        "allergens": "Contém GLÚTEN (trigo), OVOS e LEITE (manteiga e eventual leite na massa). Pode conter vestígios de SOJA ou FRUTOS DE CASCA RIJA conforme inclusões ou contaminação cruzada da cozinha."
+      },
+      "errorsAndTesting": {
+        "commonErrors": "Usar farinha T45 para bolos (abate no forno); adicionar manteiga toda de uma vez no início (miolo pesado tipo bolo); retirar do forno antes dos 92 °C internos.",
+        "testingNotice": "Os tempos de fermentação (1 h–5 h) e cozedura (35–42 min) variam consoante a temperatura real da sua cozinha e calibração do seu forno doméstico. Execute sempre uma fornada de teste físico antes de abrir encomendas comerciais."
+      },
+      "defaultReferencePriceEur": 11.5
+    },
+    {
+      "id": 25,
+      "slug": "25-panetone-no-copo-chocolate-intenso",
+      "title": "Panetone no Copo de Chocolate Intenso",
+      "shortTitle": "Panetone no Copo de Chocolate Intenso",
+      "category": "panetone-no-copo",
+      "categoryLabel": "Bloco E · Panetone no Copo",
+      "blockSubtitle": "Sobremesa individual de colher ideal para consumo imediato ou vendas de fim de semana — aproveita integralmente os cubos de miolo retirados na escavação da Receita 11 (zero desperdício!).",
+      "image": "/media/mini-e-copo.jpg",
+      "yieldText": "6 copos de 220–250 ml (~220 g – 230 g líquidos por copo)",
+      "baseYieldUnits": 6,
+      "unitTypeLabel": "copos (220 ml)",
+      "packageType": "copo",
+      "isFilled": true,
+      "difficulty": "Fácil",
+      "activeTime": "~25 min (creme + calda + montagem) | Temperatura de serviço/guarda: Refrigerado (0 °C a 5 °C)",
+      "totalTime": "~5 h",
+      "ovenTemp": "165 °C",
+      "utensils": [
+        "Balança digital, 2 tachinhos pequenos, vara de arames e espátula de silicone",
+        "6 copos descartáveis transparentes com tampa bolha (200–220 ml) + colheres embaladas + etiquetas + selos de segurança",
+        "2 sacos de pasteleiro (para montagem limpa sem sujar as paredes do copo!)"
+      ],
+      "ingredients": [
+        {
+          "id": "ing-1",
+          "raw": "420 g de miolo de Chocotone ou Panetone base frio (ex.: Receitas 01 ou 03, ou cubos retirados ao escavar panetones recheados), cortado em cubos de ~1,5 cm (~70 g por copo)",
+          "group": "Base de Massa em Cubos",
+          "name": "Miolo de Chocotone ou Panetone base frio (ex.: Receitas 01 ou 03, ou cubos retirados ao escavar panetones recheados), cortado em cubos de ~1,5 cm (~70 g por copo)",
+          "normalizedKey": "420-g-de-miolo-de-chocotone-ou-p",
+          "shoppingCategory": "embalagem",
+          "quantity": 420,
+          "unit": "g"
+        },
+        {
+          "id": "ing-2",
+          "raw": "100 ml de água filtrada + 25 g de açúcar fino + 1 tira de casca de laranja + 5 ml de extrato de baunilha",
+          "group": "Calda Leve de Laranja-Baunilha (para não secar o miolo frio)",
+          "name": "Água filtrada + 25 g de açúcar fino + 1 tira de casca de laranja + 5 ml de extrato de baunilha",
+          "normalizedKey": "acucar-fino",
+          "shoppingCategory": "massa",
+          "quantity": 100,
+          "unit": "ml"
+        },
+        {
+          "id": "ing-3",
+          "raw": "395 g (1 lata) de leite condensado",
+          "group": "Creme Mole de Chocolate 54 % (Rende ~680 g para 6 copos)",
+          "name": "Leite condensado",
+          "normalizedKey": "leite-condensado",
+          "shoppingCategory": "embalagem",
+          "quantity": 395,
+          "unit": "g"
+        },
+        {
+          "id": "ing-4",
+          "raw": "300 ml de natas para bater (35 % MG) (mais natas do que no panetone grande para ficar leve à colher mesmo frio!)",
+          "group": "Creme Mole de Chocolate 54 % (Rende ~680 g para 6 copos)",
+          "name": "Natas para bater (35 % MG) (mais natas do que no panetone grande para ficar leve à colher mesmo frio!)",
+          "normalizedKey": "natas-35",
+          "shoppingCategory": "embalagem",
+          "quantity": 300,
+          "unit": "ml"
+        },
+        {
+          "id": "ing-5",
+          "raw": "90 g de chocolate negro 54 % picado + 20 g de cacau em pó 100 % peneirado",
+          "group": "Creme Mole de Chocolate 54 % (Rende ~680 g para 6 copos)",
+          "name": "Chocolate negro 54 % picado + 20 g de cacau em pó 100 % peneirado",
+          "normalizedKey": "chocolate-pastelaria",
+          "shoppingCategory": "embalagem",
+          "quantity": 90,
+          "unit": "g"
+        },
+        {
+          "id": "ing-6",
+          "raw": "10 g de manteiga sem sal + 1 g de sal fino",
+          "group": "Creme Mole de Chocolate 54 % (Rende ~680 g para 6 copos)",
+          "name": "Manteiga sem sal + 1 g de sal fino",
+          "normalizedKey": "manteiga-sem-sal",
+          "shoppingCategory": "embalagem",
+          "quantity": 10,
+          "unit": "g"
+        },
+        {
+          "id": "ing-7",
+          "raw": "100 g de chocolate de leite ou negro picado + 85 ml de natas (35 % MG)",
+          "group": "Ganache Leve de Topo & Crocante (6 copos)",
+          "name": "Chocolate de leite ou negro picado + 85 ml de natas (35 % MG)",
+          "normalizedKey": "natas-35",
+          "shoppingCategory": "embalagem",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "id": "ing-8",
+          "raw": "45 g de raspas de chocolate ou bolinhas crocantes de cereal com chocolate (colocar só antes de tampar/entregar!)",
+          "group": "Ganache Leve de Topo & Crocante (6 copos)",
+          "name": "Raspas de chocolate ou bolinhas crocantes de cereal com chocolate (colocar só antes de tampar/entregar!)",
+          "normalizedKey": "45-g-de-raspas-de-chocolate-ou-b",
+          "shoppingCategory": "embalagem",
+          "quantity": 45,
+          "unit": "g"
+        }
+      ],
+      "steps": [
+        {
+          "number": 1,
+          "title": "Preparar e arrefecer a calda",
+          "text": "Ferva a água, o açúcar e a casca de laranja durante 2 min. Desligue, junte a baunilha, retire a casca e deixe arrefecer completamente no frigorífico (calda morna derrete o creme e estraga o copo mais depressa!).",
+          "suggestedMinutes": [
+            2
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Cozinhar o creme cremoso de copo",
+          "text": "No tacho frio, dissolva o cacau em pó (20 g) no leite condensado (395 g). Junte as 300 ml de natas, manteiga e sal. Cozinhe em lume brando mexendo sempre 7 a 9 min até engrossar levemente em ponto de mingau espesso (pare cedo: quando o creme escorre em fita grossa da espátula, ganha mais corpo no frio!). Junte as 90 g de chocolate picado fora do lume até derreter. Cubra em contacto e arrefeça totalmente no frigorífico (>= 3 h).",
+          "suggestedMinutes": [
+            180,
+            7
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Preparar ganache fluida de topo",
+          "text": "Aqueça os 85 ml de natas, verta sobre as 100 g de chocolate picado, misture até ficar liso e arrefeça até ficar morno-frio (~24 °C, fluido).",
+          "suggestedMinutes": []
+        },
+        {
+          "number": 4,
+          "title": "Montagem limpa por camadas (use saco de pasteleiro!)",
+          "text": "- Camada 1 (fundo): ~25 g de creme frio de chocolate no fundo de cada copo. - Camada 2: ~35 g de cubos de chocotone; borrife/humedeça suavemente com ~8 ml (~1,5 colheres de chá) de calda fria. - Camada 3: ~50 g de creme frio de chocolate (alise em espiral encostado à parede transparente do copo para ficar visualmente nítido!). - Camada 4: ~35 g de cubos + ~8 ml de calda fria. - Camada 5 (topo): ~40 g de creme + ~25 g de ganache fluida por cima.",
+          "suggestedMinutes": []
+        },
+        {
+          "number": 5,
+          "title": "Finalizar e refrigerar",
+          "text": "Polvilhe raspas de chocolate e crocantes (se o cliente consumir no próprio dia; se for para consumir dali a 24–48 h, entregue os crocantes num mini saquinho à parte ou use apenas raspas de chocolate que não amolecem!), coloque tampa bolha, selo inviolável e etiqueta com data.",
+          "suggestedMinutes": []
+        }
+      ],
+      "conservation": {
+        "application": "Manter sempre em frigorífico (0 °C a 5 °C) desde a montagem até à entrega.",
+        "shelfLife": "Manter sempre em frigorífico (0 °C a 5 °C) desde a montagem até à entrega.",
+        "allergens": "Contém GLÚTEN (trigo), OVOS, LEITE e SOJA (lecitina do chocolate). Pode conter vestígios de FRUTOS DE CASCA RIJA."
+      },
+      "errorsAndTesting": {
+        "commonErrors": "Cozinhar o creme demasiado espesso (no frigorífico fica um bloco seco impossível de comer à colher); encharcar os cubos de panetone com calda em excesso fazendo sopa no fundo do copo; montar camadas com o creme ainda morno (cria condensação na tampa).",
+        "testingNotice": "Faça 2 copos de teste e prove após 24 h e 48 h no seu frigorífico para confirmar o equilíbrio exato de humidade entre o creme e os cubos."
+      },
+      "defaultReferencePriceEur": 5
+    }
+  ],
+  "modules": [
+    {
+      "id": "mod-01",
+      "number": 1,
+      "title": "Módulo 01 — Menu de Natal que Vende",
+      "objective": "Construir um catálogo enxuto, atrativo e lucrativo em torno de três produtos estratégicos em faixas de preço diferentes — sem dispersar ingredientes, sem desperdiçar massa e facilitando a decisão do cliente pelo WhatsApp.",
+      "actionChecklist": [
+        "Definiu as suas 3 faixas de produto (Mini, No Copo e 500 g Clássico/Recheado).",
+        "Limitou o menu inicial a 4–6 sabores estratégicos que partilham ingredientes entre si.",
+        "Pesquisou preços reais de formas, sacos/caixas e fitas em fornecedores locais para substituir os valores ilustrativos antes de avançar para o Módulo 04."
+      ],
+      "sections": [
+        {
+          "heading": "1. Porque Menos Opções Vendem Mais no Natal",
+          "bodyMarkdown": "Quando alguém começa a vender doces natalícios por encomenda, o impulso mais comum é apresentar uma lista com quinze sabores, quatro tamanhos e dezenas de personalizações. Na prática, um menu demasiado longo produz o efeito contrário:\n\n- **Paralisa o cliente:** quem está a comprar presentes de Natal pelo telemóvel quer decidir em 60 segundos.\n- **Destrói a sua margem:** comprar 12 recheios diferentes em quantidades pequenas encarece o custo unitário e deixa sobras no frigorífico.\n- **Aumenta a taxa de erro:** fornos cheios com formas e massas diferentes têm tempos de cozedura distintos e maior risco de sair um lote mal cozido.\n\nO princípio comercial do **Panetones que Rendem** é simples: **uma massa mãe versátil + três formatos em escada de valor** (*Entrada / Lembrança*, *Consumo Individual / Sobremesa* e *Centro de Mesa / Oferta Premium*).\n\n---"
+        },
+        {
+          "heading": "2. A Arquitetura dos 3 Produtos em Faixas de Preço Diferentes",
+          "bodyMarkdown": "Esta estrutura cobre os três motivos reais de compra em dezembro em Portugal: lembranças económicas para equipas e professores, mimos rápidos para partilha imediata e panetones principais para ceia ou cabaz de Natal.\n\n| Faixa | Produto | Peso Líquido Orientativo | Perfil de Cliente | Preço de Referência (Ilustrativo*) | Papel no Catálogo |\n| --- | --- | --- | --- | --- | --- |\n| **Faixa 1 — Entrada / Lembrança** | **Mini Panetone Artesanal** (Tradicional ou Recheado) | `100 g – 150 g` | Professores, colegas de trabalho, cabazes de empresa, vizinhos | **`4,00 € – 5,50 €`** (unid.) ou Packs de 3/6 | Atrai primeiras encomendas em volume e reduz a barreira de entrada |\n| **Faixa 2 — Consumo Rápido / Sobremesa** | **Panetone no Copo** (`200 ml – 250 ml`) | `180 g – 240 g` | Sobremesa de fim de semana, lanche de escritório, clientes que querem provar antes de comprar o grande | **`4,50 € – 6,00 €`** | Excelente escoamento de aparas e panetones com imperfeições visuais |\n| **Faixa 3 — Produto Principal / Oferta** | **Panetone / Chocotone Recheado** (`500 g` forma + recheio/cobertura) | `650 g – 800 g` (final recheado) | Ceia de Natal, Consoada, Dia de Reis, prenda para padrinhos e familiares | **`12,00 € – 18,00 €`** (simples/clássico de `500 g` desde **`10,00 € – 12,50 €`**) | Gera a maior faturação por hora de trabalho |\n\n> [!IMPORTANT]\n> **\\*Nota sobre preços orientativos:** As faixas acima são referências ilustrativas alinhadas com os exemplos do nosso material comercial (por exemplo: Mini a `4,50 €`, No Copo a `5,00 €` e Recheado a `12,50 €–15,00 €`). O seu preço definitivo **tem de ser calculado no Módulo 04** após pesar os ingredientes comprados na sua zona, somar embalagens e definir o valor da sua hora de trabalho.\n\n### Regra de Ouro do Catálogo Enxuto\n\nPara o primeiro Natal, trabalhe no máximo com **4 a 6 combinações ativas** distribuídas pelos três formatos:\n\n1. **Mini (`100 g–150 g`):** Pepitas de Chocolate · Frutas Clássico · Versão Trufada (Doce de Leite ou Leite em Pó).\n2. **Panetone no Copo (`220 ml`):** Chocolate & Avelã · Creme de Leite em Pó com Frutos Vermelhos/Morango · Doce de Leite Crocante.\n3. **Grande (`500 g` simples ou `700 g+` recheado):** Clássico Frutas/Laranja · Chocotone Duplo · Recheado Premium (Escolha 2 dos 5 sabores principais: Leite em Pó, Doce de Leite, Maracujá, Avelã ou Chocolate).\n\n---"
+        },
+        {
+          "heading": "3. Como Montar o Catálogo que Converta em Encomendas",
+          "bodyMarkdown": "Um catálogo enviado por WhatsApp em PDF ou imagem vertical (formato telemóvel) deve responder a cinco perguntas sem o cliente precisar de perguntar:\n\n1. **O que é e qual o peso aproximado** (ex.: *\"Chocotone Recheado de Leite em Pó — aprox. 720 g\"*).\n2. **Como vem embalado** (ex.: *\"Embalado em saco celofane transparente, fita de cetim e etiqueta de Natal pronto a oferecer\"*).\n3. **Qual o preço unitário e opções de conjunto/pack** (ex.: *\"1 unidade: 4,50 € | Pack 4 Minis: 17,00 €\"*).\n4. **Alergénios principais visíveis** (ex.: *\"Contém glúten, ovos, leite; pode conter vestígios de frutos de casca rija\"*).\n5. **Regra de reserva** (ex.: *\"Produção artesanal sob encomenda · Reserva confirmada com sinal de 50% por MB WAY\"*).\n\n### Estrutura Recomendada das Páginas do Catálogo (4 a 6 Cartões)\n\n- **Página 1 — Capa:** Logótipo, nome da sua marca caseira/artesanal, frase simples (*\"Encomendas de Natal 2026 — Feito por encomenda com entrega combinada\"*), datas limite de reserva.\n- **Página 2 — Produtos Principais (`500 g` Clássicos & Recheados):** 2 a 3 sabores com foto limpa, descrição sensorial curta (sem exageros) e preço claro.\n- **Página 3 — Minis e Kits de Oferta:** Foco em presentes económicos para professores, colegas e jantares de amigos.\n- **Página 4 — Panetone no Copo:** Posicionado como *\"Sobremesa pronta a saborear à colher\"* e ideal para encomendas de última hora ou lanches.\n- **Página 5 — Como Encomendar & Conservação:** Passos numerados (Escolher → Pagar sinal 50% MB WAY → Levantar/Receber na data) e validade orientativa.\n\n---"
+        },
+        {
+          "heading": "4. Apresentação e Embalagens em Portugal (Custos Orientativos em Euros)",
+          "bodyMarkdown": "Em pastelaria artesanal, a embalagem não serve apenas para proteger da humidade — é ela que justifica a transição de um pão doce caseiro para uma **prenda de Natal**. Contudo, embalagens excessivamente caras devoram o lucro num produto de `4,50 €` ou `12,50 €`.\n\n### Opções de Embalagem por Faixa de Produto\n\n| Produto | Embalagem Económica (Boa Margem) | Embalagem Presente / Premium | Custo Unitário Orientativo (EUR)* |\n| --- | --- | --- | --- |\n| **Mini Panetone (`100 g–150 g`)** | Forma papel forneável + saco polipropileno/celofane (`15×25 cm`) + fita cetim/cordão juta + autocolante redondo | Caixinha individual kraft com visor transparente + fita festiva + tag *\"De / Para\"* | Económica: `0,25 € – 0,45 €`<br>Caixa visor: `0,65 € – 1,10 €` |\n| **Panetone no Copo (`200–250 ml`)** | Copo cristal descartável c/ tampa bolha (`220 ml`) + fita autocolante selo de segurança + colher embalada individualmente | Copo quadrado acrílico reutilizável / frasco de vidro com tampa + etiqueta redonda no topo | Copo PET + tampa + colher: `0,35 € – 0,60 €`<br>Frasco vidro: `0,90 € – 1,40 €` |\n| **Panetone Clássico (`500 g`)** | Forma papel forneável (`500 g`) + saco celofane (`30×45 cm`) + fita cetim vermelha/dourada + etiqueta principal | Saco kraft natalício com alça ou caixa cúbica cartão natalício (`16×16×18 cm`) | Saco + fita + tag: `0,55 € – 0,90 €`<br>Caixa cartão: `1,30 € – 2,20 €` |\n| **Panetone Recheado (`700 g+`)** | Base cartão laminado dourado (`16–18 cm`) + saco celofane alto ou caixa com visor frontal + cinta/autocolante | Caixa rígida natalícia com janela frontal + cartão de cuidados de conservação | Base + caixa visor + etiqueta: `1,20 € – 2,10 €` |\n\n> [!TIP]\n> **O segredo da cinta e do selo de segurança:** Uma simples caixa kraft lisa (muito mais barata e fácil de encontrar em armazenistas portugueses durante todo o ano) ganha imediatamente aspeto de boutique natalícia quando lhe aplica uma **cinta de papel impresso em bordô e dourado** ou um **selo autocolante com o logótipo** (que irá receber já prontos para personalizar na Fase de Etiquetas).\n\n### Regras Práticas de Apresentação e Higiene na Entrega\n\n1. **Nunca embale o panetone morno:** Qualquer vestígio de calor cria condensação dentro do saco ou caixa, amolecendo a crosta e acelerando o aparecimento de bolores em 24–48 horas. Espere pelo menos **8 a 12 horas** após o forno (idealmente após o *tombamento*).\n2. **Selo inviolável:** Em panetones simples ou no copo, aplique um autocolante que una a aba da tampa ou o nó da fita — passa confiança profissional ao cliente.\n3. **Proteção térmica na entrega:** Panetones cobertos com ganache, creme de avelã ou leite em pó devem ser transportados em caixas niveladas e fora de exposição solar direta (nunca na chapeleira do carro ou junto a radiadores).\n\n---"
+        },
+        {
+          "heading": "5. Exemplo Prático: Montar o Primeiro Catálogo Sem Sobrecarga",
+          "bodyMarkdown": "Suponha que vai começar num fim de semana com um forno doméstico padrão (`60 cm`, capacidade para 4 formas de `500 g` ou 9 formas mini por fornada):\n\n- **Escolha 1 sabor Clássico (`500 g`):** Panetone Tradicional de Frutas e Raspa de Laranja (`11,50 €` – preço ilustrativo).\n- **Escolha 2 sabores Recheados (`500 g` base → `~720 g` finais):** Chocotone Duplo Chocolate (`14,50 €`) e Panetone Creme de Leite em Pó (`14,50 €`).\n- **Escolha 1 Pack Mini (`3×120 g`):** Trio Degustação Natalícia em caixa ou saco com fita (`12,90 €` o pack ou `4,50 €` avulso).\n- **Escolha 2 sabores No Copo (`220 ml`):** Chocolate com Avelã e Doce de Leite com Nozes (`5,00 €` cada).\n\nCom apenas **duas massas base** (clássica e cacau/pepitas) e **três coberturas/recheios**, consegue responder a todas as carteiras — dos `4,50 €` aos `14,50 €` — sem desperdiçar ingredientes.\n\n---"
+        }
+      ],
+      "rawMarkdown": "# Módulo 01 — Menu de Natal que Vende\n\n> **Objetivo do módulo:** Construir um catálogo enxuto, atrativo e lucrativo em torno de **três produtos estratégicos** em faixas de preço diferentes — sem dispersar ingredientes, sem desperdiçar massa e facilitando a decisão do cliente pelo WhatsApp.\n\n---\n\n## 1. Porque Menos Opções Vendem Mais no Natal\n\nQuando alguém começa a vender doces natalícios por encomenda, o impulso mais comum é apresentar uma lista com quinze sabores, quatro tamanhos e dezenas de personalizações. Na prática, um menu demasiado longo produz o efeito contrário:\n\n- **Paralisa o cliente:** quem está a comprar presentes de Natal pelo telemóvel quer decidir em 60 segundos.\n- **Destrói a sua margem:** comprar 12 recheios diferentes em quantidades pequenas encarece o custo unitário e deixa sobras no frigorífico.\n- **Aumenta a taxa de erro:** fornos cheios com formas e massas diferentes têm tempos de cozedura distintos e maior risco de sair um lote mal cozido.\n\nO princípio comercial do **Panetones que Rendem** é simples: **uma massa mãe versátil + três formatos em escada de valor** (*Entrada / Lembrança*, *Consumo Individual / Sobremesa* e *Centro de Mesa / Oferta Premium*).\n\n---\n\n## 2. A Arquitetura dos 3 Produtos em Faixas de Preço Diferentes\n\nEsta estrutura cobre os três motivos reais de compra em dezembro em Portugal: lembranças económicas para equipas e professores, mimos rápidos para partilha imediata e panetones principais para ceia ou cabaz de Natal.\n\n| Faixa | Produto | Peso Líquido Orientativo | Perfil de Cliente | Preço de Referência (Ilustrativo*) | Papel no Catálogo |\n| --- | --- | --- | --- | --- | --- |\n| **Faixa 1 — Entrada / Lembrança** | **Mini Panetone Artesanal** (Tradicional ou Recheado) | `100 g – 150 g` | Professores, colegas de trabalho, cabazes de empresa, vizinhos | **`4,00 € – 5,50 €`** (unid.) ou Packs de 3/6 | Atrai primeiras encomendas em volume e reduz a barreira de entrada |\n| **Faixa 2 — Consumo Rápido / Sobremesa** | **Panetone no Copo** (`200 ml – 250 ml`) | `180 g – 240 g` | Sobremesa de fim de semana, lanche de escritório, clientes que querem provar antes de comprar o grande | **`4,50 € – 6,00 €`** | Excelente escoamento de aparas e panetones com imperfeições visuais |\n| **Faixa 3 — Produto Principal / Oferta** | **Panetone / Chocotone Recheado** (`500 g` forma + recheio/cobertura) | `650 g – 800 g` (final recheado) | Ceia de Natal, Consoada, Dia de Reis, prenda para padrinhos e familiares | **`12,00 € – 18,00 €`** (simples/clássico de `500 g` desde **`10,00 € – 12,50 €`**) | Gera a maior faturação por hora de trabalho |\n\n> [!IMPORTANT]\n> **\\*Nota sobre preços orientativos:** As faixas acima são referências ilustrativas alinhadas com os exemplos do nosso material comercial (por exemplo: Mini a `4,50 €`, No Copo a `5,00 €` e Recheado a `12,50 €–15,00 €`). O seu preço definitivo **tem de ser calculado no Módulo 04** após pesar os ingredientes comprados na sua zona, somar embalagens e definir o valor da sua hora de trabalho.\n\n### Regra de Ouro do Catálogo Enxuto\n\nPara o primeiro Natal, trabalhe no máximo com **4 a 6 combinações ativas** distribuídas pelos três formatos:\n\n1. **Mini (`100 g–150 g`):** Pepitas de Chocolate · Frutas Clássico · Versão Trufada (Doce de Leite ou Leite em Pó).\n2. **Panetone no Copo (`220 ml`):** Chocolate & Avelã · Creme de Leite em Pó com Frutos Vermelhos/Morango · Doce de Leite Crocante.\n3. **Grande (`500 g` simples ou `700 g+` recheado):** Clássico Frutas/Laranja · Chocotone Duplo · Recheado Premium (Escolha 2 dos 5 sabores principais: Leite em Pó, Doce de Leite, Maracujá, Avelã ou Chocolate).\n\n---\n\n## 3. Como Montar o Catálogo que Converta em Encomendas\n\nUm catálogo enviado por WhatsApp em PDF ou imagem vertical (formato telemóvel) deve responder a cinco perguntas sem o cliente precisar de perguntar:\n\n1. **O que é e qual o peso aproximado** (ex.: *\"Chocotone Recheado de Leite em Pó — aprox. 720 g\"*).\n2. **Como vem embalado** (ex.: *\"Embalado em saco celofane transparente, fita de cetim e etiqueta de Natal pronto a oferecer\"*).\n3. **Qual o preço unitário e opções de conjunto/pack** (ex.: *\"1 unidade: 4,50 € | Pack 4 Minis: 17,00 €\"*).\n4. **Alergénios principais visíveis** (ex.: *\"Contém glúten, ovos, leite; pode conter vestígios de frutos de casca rija\"*).\n5. **Regra de reserva** (ex.: *\"Produção artesanal sob encomenda · Reserva confirmada com sinal de 50% por MB WAY\"*).\n\n### Estrutura Recomendada das Páginas do Catálogo (4 a 6 Cartões)\n\n- **Página 1 — Capa:** Logótipo, nome da sua marca caseira/artesanal, frase simples (*\"Encomendas de Natal 2026 — Feito por encomenda com entrega combinada\"*), datas limite de reserva.\n- **Página 2 — Produtos Principais (`500 g` Clássicos & Recheados):** 2 a 3 sabores com foto limpa, descrição sensorial curta (sem exageros) e preço claro.\n- **Página 3 — Minis e Kits de Oferta:** Foco em presentes económicos para professores, colegas e jantares de amigos.\n- **Página 4 — Panetone no Copo:** Posicionado como *\"Sobremesa pronta a saborear à colher\"* e ideal para encomendas de última hora ou lanches.\n- **Página 5 — Como Encomendar & Conservação:** Passos numerados (Escolher → Pagar sinal 50% MB WAY → Levantar/Receber na data) e validade orientativa.\n\n---\n\n## 4. Apresentação e Embalagens em Portugal (Custos Orientativos em Euros)\n\nEm pastelaria artesanal, a embalagem não serve apenas para proteger da humidade — é ela que justifica a transição de um pão doce caseiro para uma **prenda de Natal**. Contudo, embalagens excessivamente caras devoram o lucro num produto de `4,50 €` ou `12,50 €`.\n\n### Opções de Embalagem por Faixa de Produto\n\n| Produto | Embalagem Económica (Boa Margem) | Embalagem Presente / Premium | Custo Unitário Orientativo (EUR)* |\n| --- | --- | --- | --- |\n| **Mini Panetone (`100 g–150 g`)** | Forma papel forneável + saco polipropileno/celofane (`15×25 cm`) + fita cetim/cordão juta + autocolante redondo | Caixinha individual kraft com visor transparente + fita festiva + tag *\"De / Para\"* | Económica: `0,25 € – 0,45 €`<br>Caixa visor: `0,65 € – 1,10 €` |\n| **Panetone no Copo (`200–250 ml`)** | Copo cristal descartável c/ tampa bolha (`220 ml`) + fita autocolante selo de segurança + colher embalada individualmente | Copo quadrado acrílico reutilizável / frasco de vidro com tampa + etiqueta redonda no topo | Copo PET + tampa + colher: `0,35 € – 0,60 €`<br>Frasco vidro: `0,90 € – 1,40 €` |\n| **Panetone Clássico (`500 g`)** | Forma papel forneável (`500 g`) + saco celofane (`30×45 cm`) + fita cetim vermelha/dourada + etiqueta principal | Saco kraft natalício com alça ou caixa cúbica cartão natalício (`16×16×18 cm`) | Saco + fita + tag: `0,55 € – 0,90 €`<br>Caixa cartão: `1,30 € – 2,20 €` |\n| **Panetone Recheado (`700 g+`)** | Base cartão laminado dourado (`16–18 cm`) + saco celofane alto ou caixa com visor frontal + cinta/autocolante | Caixa rígida natalícia com janela frontal + cartão de cuidados de conservação | Base + caixa visor + etiqueta: `1,20 € – 2,10 €` |\n\n> [!TIP]\n> **O segredo da cinta e do selo de segurança:** Uma simples caixa kraft lisa (muito mais barata e fácil de encontrar em armazenistas portugueses durante todo o ano) ganha imediatamente aspeto de boutique natalícia quando lhe aplica uma **cinta de papel impresso em bordô e dourado** ou um **selo autocolante com o logótipo** (que irá receber já prontos para personalizar na Fase de Etiquetas).\n\n### Regras Práticas de Apresentação e Higiene na Entrega\n\n1. **Nunca embale o panetone morno:** Qualquer vestígio de calor cria condensação dentro do saco ou caixa, amolecendo a crosta e acelerando o aparecimento de bolores em 24–48 horas. Espere pelo menos **8 a 12 horas** após o forno (idealmente após o *tombamento*).\n2. **Selo inviolável:** Em panetones simples ou no copo, aplique um autocolante que una a aba da tampa ou o nó da fita — passa confiança profissional ao cliente.\n3. **Proteção térmica na entrega:** Panetones cobertos com ganache, creme de avelã ou leite em pó devem ser transportados em caixas niveladas e fora de exposição solar direta (nunca na chapeleira do carro ou junto a radiadores).\n\n---\n\n## 5. Exemplo Prático: Montar o Primeiro Catálogo Sem Sobrecarga\n\nSuponha que vai começar num fim de semana com um forno doméstico padrão (`60 cm`, capacidade para 4 formas de `500 g` ou 9 formas mini por fornada):\n\n- **Escolha 1 sabor Clássico (`500 g`):** Panetone Tradicional de Frutas e Raspa de Laranja (`11,50 €` – preço ilustrativo).\n- **Escolha 2 sabores Recheados (`500 g` base → `~720 g` finais):** Chocotone Duplo Chocolate (`14,50 €`) e Panetone Creme de Leite em Pó (`14,50 €`).\n- **Escolha 1 Pack Mini (`3×120 g`):** Trio Degustação Natalícia em caixa ou saco com fita (`12,90 €` o pack ou `4,50 €` avulso).\n- **Escolha 2 sabores No Copo (`220 ml`):** Chocolate com Avelã e Doce de Leite com Nozes (`5,00 €` cada).\n\nCom apenas **duas massas base** (clássica e cacau/pepitas) e **três coberturas/recheios**, consegue responder a todas as carteiras — dos `4,50 €` aos `14,50 €` — sem desperdiçar ingredientes.\n\n---\n\n## Resumo de Ação do Módulo 01\n\n- [ ] Definiu as suas **3 faixas de produto** (Mini, No Copo e `500 g` Clássico/Recheado).\n- [ ] Limitou o menu inicial a **4–6 sabores estratégicos** que partilham ingredientes entre si.\n- [ ] Pesquisou preços reais de formas, sacos/caixas e fitas em fornecedores locais para substituir os valores ilustrativos antes de avançar para o Módulo 04.\n\n"
+    }
+  ],
+  "sevenDaysPlan": [
+    {
+      "day": "Dia 1 — Decisão & Utensílios",
+      "focus": "Preparar a base",
+      "actions": "Ler Módulos 01 e 02. Conferir o que já tem em casa e comprar o essencial em falta: balança 1 g, termómetro de sonda, formas de papel (500 g e mini), espetos compridos e farinha de força (>= 11,5 % proteína ou Manitoba).",
+      "outcome": "Cozinha equipada para testar sem improvisos."
+    },
+    {
+      "day": "Dia 2 — Primeira Fornada de Teste",
+      "focus": "Calibrar forno e massa",
+      "actions": "Executar a Receita 01 (Massa Base Método Direto) em meia receita ou 2 unidades de 500 g. Cronometrar tempos reais de fermentação na sua cozinha, confirmar 92 °C–94 °C no forno e fazer o tombamento durante a noite.",
+      "outcome": "Conhecimento real do seu forno e da textura da massa."
+    }
+  ],
+  "startupChecklist": [
+    "Balança digital funcional (pilhas novas verificadas).",
+    "Termómetro culinário de sonda digital testado.",
+    "Farinha verificada pela tabela nutricional (>= 11,5 g – 12,5 g de proteína/100 g ou Manitoba/Tipo 00 Forte).",
+    "Fermento de padeiro fresco (dentro da validade no frio) ou seco instantâneo (saquetas fechadas)."
+  ],
+  "faqItems": [
+    {
+      "question": "Posso fazer panetones lucrativos sem batedeira planetária?",
+      "answer": "Sim. A batedeira planetária poupa esforço quando começa a produzir 8 a 16 unidades por fim de semana, mas as receitas de Método Direto (Receita 01) e Esponja (Receita 02) incluem adaptação manual por autólise e dobras espaçadas. Comece no volume pequeno (ou pelos Panetones no Copo) e reinvista o lucro das primeiras fornadas na batedeira."
+    },
+    {
+      "question": "O meu forno só tem aquecimento a gás ou só resistência de baixo — dá para assar?",
+      "answer": "Dá, mas exige teste físico prévio e proteção na base. Nos fornos a gás o calor vem de baixo: coloque uma forma vazia ou pedra refratária na prateleira mais baixa como barreira térmica e asse o panetone na prateleira do meio. Use um termómetro simples de forno para confirmar a temperatura real, pois muitos fornos a gás marcam 180 °C mas estão a 200 °C."
+    }
+  ],
+  "suppliers": [
+    {
+      "category": "Farinhas de Força (Manitoba / Tipo 00 Forte), Manteiga, Natas e Laticínios",
+      "name": "Makro Portugal",
+      "accessType": "B2B / Profissionais e atividade registada (cartão Makro)",
+      "products": "Caputo Manitoba Oro Tipo 0 (saco 5 kg), manteigas sem sal blocos, natas 1 L (35 % MG), leite condensado, chocolates pastelaria; opção Click & Collect",
+      "urls": [
+        "https://www.makro.pt"
+      ],
+      "verifiedAt": "2026-11-12"
+    },
+    {
+      "category": "Farinhas de Força (Manitoba / Tipo 00 Forte), Manteiga, Natas e Laticínios",
+      "name": "Recheio Cash & Carry",
+      "accessType": "B2B / HORECA (Cartão Recheio)",
+      "products": "Caputo Manitoba (saco 5 kg), laticínios em formato profissional, frutos secos e mercearia a granel",
+      "urls": [
+        "https://www.recheio.pt"
+      ],
+      "verifiedAt": "2026-11-12"
+    },
+    {
+      "category": "Farinhas de Força (Manitoba / Tipo 00 Forte), Manteiga, Natas e Laticínios",
+      "name": "Italmarket",
+      "accessType": "Venda online particular e empresas",
+      "products": "Farinhas italianas especiais (ex.: linhas de força para panetone e pizza), ingredientes italianos",
+      "urls": [
+        "https://www.italmarket.pt"
+      ],
+      "verifiedAt": "2026-11-12"
+    }
+  ],
+  "whatsappScripts": [
+    {
+      "id": "wa-1",
+      "category": "Sequência de 7 Dias para Estados do WhatsApp (Status)",
+      "title": "Dia 1 (Curiosidade / Bastidores)",
+      "text": "\"Esta cozinha já está a aquecer os fornos para o Natal 🎄✨ Estou a preparar a fornada de testes dos Panetones Artesanais por encomenda — massa fresca com manteiga verdadeira e recheios cremosos. Quem aí não dispensa panetone na Consoada?\""
+    },
+    {
+      "id": "wa-2",
+      "category": "Sequência de 7 Dias para Estados do WhatsApp (Status)",
+      "title": "Dia 2 (Prova Sensorial — Foto do Corte)",
+      "text": "\"Massa a desfiar em fios e recheio generoso de verdade 🍫✨ Já temos data marcada para a primeira fornada oficial de encomendas! Amanhã partilho o Menu de Natal com preços e vagas.\""
+    },
+    {
+      "id": "wa-3",
+      "category": "Sequência de 7 Dias para Estados do WhatsApp (Status)",
+      "title": "Dia 3 (Abertura Oficial do Menu)",
+      "text": "\"AGENDA DE NATAL ABERTA! 🎁 Temos 3 formatos para escolher: Mini Panetone para lembranças (desde [X,XX €]), Panetone no Copo (desde [X,XX €]) e Panetones Clássicos & Recheados de 500 g+ (desde [X,XX €]). Peça o catálogo por mensagem privada!\""
+    }
+  ],
+  "referenceBatches": [
+    {
+      "batchSize": 10,
+      "label": "Lote Inicial · 10 Unidades (Mix 3 Faixas)",
+      "composition": "4 Grandes (500 g) + 4 Minis (120 g) + 2 No Copo (220 ml)",
+      "items": [
+        {
+          "name": "Farinha de trigo de força (>= 12 % prot. / Manitoba)",
+          "category": "massa",
+          "quantityText": "1,25 kg"
+        },
+        {
+          "name": "Leite meio-gordo (1 L) ou água",
+          "category": "massa",
+          "quantityText": "450 ml"
+        },
+        {
+          "name": "Açúcar branco fino",
+          "category": "massa",
+          "quantityText": "300 g"
+        },
+        {
+          "name": "Manteiga sem sal (>= 80–82 % MG)",
+          "category": "massa",
+          "quantityText": "300 g"
+        },
+        {
+          "name": "Ovos tamanho L (usar gemas ~18–19 g cada; guardar claras p/ glassa/uso doméstico)",
+          "category": "massa",
+          "quantityText": "12 ovos (~225 g gemas)"
+        },
+        {
+          "name": "Mel de flores ou rosmaninho",
+          "category": "massa",
+          "quantityText": "65 g"
+        },
+        {
+          "name": "Fermento padeiro fresco (cubos 25 g) OU seco (saquetas 7 g)",
+          "category": "massa",
+          "quantityText": "63 g fresco (3 cubos) / 20 g seco"
+        },
+        {
+          "name": "Sal fino",
+          "category": "massa",
+          "quantityText": "20 g"
+        },
+        {
+          "name": "Laranjas e limões frescos (para raspas + hidratação)",
+          "category": "massa",
+          "quantityText": "3 laranjas + 1 limão"
+        },
+        {
+          "name": "Pasta / extrato de baunilha",
+          "category": "massa",
+          "quantityText": "20 ml"
+        },
+        {
+          "name": "Cacau em pó 100 % (se parte do lote usar massa escura R03)",
+          "category": "massa",
+          "quantityText": "35 g"
+        },
+        {
+          "name": "Pepitas de chocolate forneáveis",
+          "category": "massa",
+          "quantityText": "350 g"
+        },
+        {
+          "name": "Frutas cristalizadas + passas sultanas (para clássicos)",
+          "category": "massa",
+          "quantityText": "300 g"
+        },
+        {
+          "name": "Leite condensado tradicional (latas 395–397 g)",
+          "category": "recheio",
+          "quantityText": "2 latas (~790 g)"
+        },
+        {
+          "name": "Natas para bater (>= 35 % MG — pacotes 200 ml ou 1 L)",
+          "category": "recheio",
+          "quantityText": "600 ml"
+        },
+        {
+          "name": "Chocolate negro 54 % / de leite para ganache e recheios",
+          "category": "recheio",
+          "quantityText": "350 g"
+        },
+        {
+          "name": "Chocolate branco de pastelaria",
+          "category": "recheio",
+          "quantityText": "220 g"
+        },
+        {
+          "name": "Leite em pó gordo integral",
+          "category": "recheio",
+          "quantityText": "100 g"
+        },
+        {
+          "name": "Doce de leite pasteleiro (ou latas cozidas)",
+          "category": "recheio",
+          "quantityText": "250 g"
+        },
+        {
+          "name": "Creme de avelã e cacau + avelãs inteiras sem pele",
+          "category": "recheio",
+          "quantityText": "250 g + 60 g"
+        },
+        {
+          "name": "Polpa de maracujá natural + flor de sal + nozes/amêndoa",
+          "category": "recheio",
+          "quantityText": "150 g polpa + 50 g frutos"
+        },
+        {
+          "name": "Formas de papel forneáveis 500 g (+10 % reserva)",
+          "category": "embalagem",
+          "quantityText": "5 unid."
+        },
+        {
+          "name": "Formas de papel forneáveis Mini 100–120 g (+10 % reserva)",
+          "category": "embalagem",
+          "quantityText": "5 unid."
+        },
+        {
+          "name": "Copos PET c/ tampa bolha (220 ml) + colheres embaladas",
+          "category": "embalagem",
+          "quantityText": "2 conjuntos"
+        },
+        {
+          "name": "Bases/pratos cartão dourado 16–18 cm (para recheados)",
+          "category": "embalagem",
+          "quantityText": "2 unid."
+        },
+        {
+          "name": "Caixas cartão c/ visor (para grandes recheados)",
+          "category": "embalagem",
+          "quantityText": "2 unid."
+        },
+        {
+          "name": "Sacos celofane 30×45 cm (clássicos 500 g)",
+          "category": "embalagem",
+          "quantityText": "2 unid."
+        },
+        {
+          "name": "Sacos celofane 15×25 cm (minis)",
+          "category": "embalagem",
+          "quantityText": "4 unid."
+        },
+        {
+          "name": "Fita cetim/juta + Etiquetas Marca Própria + Selos segurança",
+          "category": "embalagem",
+          "quantityText": "1 kit (10+10)"
+        },
+        {
+          "name": "Espetos bambu/aço (25–30 cm) para tombamento (reutilizáveis se aço)",
+          "category": "embalagem",
+          "quantityText": "8 unid."
+        },
+        {
+          "name": "Sacos de pasteleiro descartáveis",
+          "category": "embalagem",
+          "quantityText": "4 unid."
+        },
+        {
+          "name": "Película aderente alimentar (contacto recheios & tapar taças)",
+          "category": "embalagem",
+          "quantityText": "1 rolo"
+        },
+        {
+          "name": "Papel absorvente de cozinha (secar frutas/bancada) + papel alumínio",
+          "category": "embalagem",
+          "quantityText": "1 + 1 rolo"
+        },
+        {
+          "name": "Desinfetante alimentar de superfícies + luvas descartáveis",
+          "category": "embalagem",
+          "quantityText": "q.b."
+        }
+      ]
+    },
+    {
+      "batchSize": 30,
+      "label": "Lote Fim de Semana · 30 Unidades (Módulo 06)",
+      "composition": "16 Grandes (8 Clássicos + 8 Recheados) + 8 Minis + 6 No Copo",
+      "items": [
+        {
+          "name": "Farinha de trigo de força (>= 12 % prot. / Manitoba)",
+          "category": "massa",
+          "quantityText": "4,40 kg (comprar 5 kg)"
+        },
+        {
+          "name": "Leite meio-gordo (1 L) ou água",
+          "category": "massa",
+          "quantityText": "1,60 L"
+        },
+        {
+          "name": "Açúcar branco fino",
+          "category": "massa",
+          "quantityText": "1,06 kg"
+        },
+        {
+          "name": "Manteiga sem sal (>= 80–82 % MG)",
+          "category": "massa",
+          "quantityText": "1,06 kg"
+        },
+        {
+          "name": "Ovos tamanho L (usar gemas ~18–19 g cada; guardar claras p/ glassa/uso doméstico)",
+          "category": "massa",
+          "quantityText": "42 ovos (~790 g gemas)"
+        },
+        {
+          "name": "Mel de flores ou rosmaninho",
+          "category": "massa",
+          "quantityText": "220 g"
+        },
+        {
+          "name": "Fermento padeiro fresco (cubos 25 g) OU seco (saquetas 7 g)",
+          "category": "massa",
+          "quantityText": "220 g fresco (9 cubos) / 70 g seco"
+        },
+        {
+          "name": "Sal fino",
+          "category": "massa",
+          "quantityText": "70 g"
+        },
+        {
+          "name": "Laranjas e limões frescos (para raspas + hidratação)",
+          "category": "massa",
+          "quantityText": "9 laranjas + 3 limões"
+        },
+        {
+          "name": "Pasta / extrato de baunilha",
+          "category": "massa",
+          "quantityText": "70 ml"
+        },
+        {
+          "name": "Cacau em pó 100 % (se parte do lote usar massa escura R03)",
+          "category": "massa",
+          "quantityText": "140 g"
+        },
+        {
+          "name": "Pepitas de chocolate forneáveis",
+          "category": "massa",
+          "quantityText": "1,00 kg"
+        },
+        {
+          "name": "Frutas cristalizadas + passas sultanas (para clássicos)",
+          "category": "massa",
+          "quantityText": "1,25 kg"
+        },
+        {
+          "name": "Leite condensado tradicional (latas 395–397 g)",
+          "category": "recheio",
+          "quantityText": "6 latas (~2,4 kg)"
+        },
+        {
+          "name": "Natas para bater (>= 35 % MG — pacotes 200 ml ou 1 L)",
+          "category": "recheio",
+          "quantityText": "2,20 L"
+        },
+        {
+          "name": "Chocolate negro 54 % / de leite para ganache e recheios",
+          "category": "recheio",
+          "quantityText": "1,30 kg"
+        },
+        {
+          "name": "Chocolate branco de pastelaria",
+          "category": "recheio",
+          "quantityText": "850 g"
+        },
+        {
+          "name": "Leite em pó gordo integral",
+          "category": "recheio",
+          "quantityText": "300 g"
+        },
+        {
+          "name": "Doce de leite pasteleiro (ou latas cozidas)",
+          "category": "recheio",
+          "quantityText": "800 g"
+        },
+        {
+          "name": "Creme de avelã e cacau + avelãs inteiras sem pele",
+          "category": "recheio",
+          "quantityText": "800 g + 200 g"
+        },
+        {
+          "name": "Polpa de maracujá natural + flor de sal + nozes/amêndoa",
+          "category": "recheio",
+          "quantityText": "450 g polpa + 200 g frutos"
+        },
+        {
+          "name": "Formas de papel forneáveis 500 g (+10 % reserva)",
+          "category": "embalagem",
+          "quantityText": "18 unid."
+        },
+        {
+          "name": "Formas de papel forneáveis Mini 100–120 g (+10 % reserva)",
+          "category": "embalagem",
+          "quantityText": "9 unid."
+        },
+        {
+          "name": "Copos PET c/ tampa bolha (220 ml) + colheres embaladas",
+          "category": "embalagem",
+          "quantityText": "6 conjuntos"
+        },
+        {
+          "name": "Bases/pratos cartão dourado 16–18 cm (para recheados)",
+          "category": "embalagem",
+          "quantityText": "8 unid."
+        },
+        {
+          "name": "Caixas cartão c/ visor (para grandes recheados)",
+          "category": "embalagem",
+          "quantityText": "8 unid."
+        },
+        {
+          "name": "Sacos celofane 30×45 cm (clássicos 500 g)",
+          "category": "embalagem",
+          "quantityText": "8 unid."
+        },
+        {
+          "name": "Sacos celofane 15×25 cm (minis)",
+          "category": "embalagem",
+          "quantityText": "8 unid."
+        },
+        {
+          "name": "Fita cetim/juta + Etiquetas Marca Própria + Selos segurança",
+          "category": "embalagem",
+          "quantityText": "1 kit (30+30)"
+        },
+        {
+          "name": "Espetos bambu/aço (25–30 cm) para tombamento (reutilizáveis se aço)",
+          "category": "embalagem",
+          "quantityText": "32 unid."
+        },
+        {
+          "name": "Sacos de pasteleiro descartáveis",
+          "category": "embalagem",
+          "quantityText": "10 unid."
+        },
+        {
+          "name": "Película aderente alimentar (contacto recheios & tapar taças)",
+          "category": "embalagem",
+          "quantityText": "1–2 rolos"
+        },
+        {
+          "name": "Papel absorvente de cozinha (secar frutas/bancada) + papel alumínio",
+          "category": "embalagem",
+          "quantityText": "2 + 1 rolos"
+        },
+        {
+          "name": "Desinfetante alimentar de superfícies + luvas descartáveis",
+          "category": "embalagem",
+          "quantityText": "q.b."
+        }
+      ]
+    },
+    {
+      "batchSize": 50,
+      "label": "Lote Alto Volume · 50 Unidades (Natal)",
+      "composition": "26 Grandes (12 Clássicos + 14 Recheados) + 14 Minis + 10 No Copo",
+      "items": [
+        {
+          "name": "Farinha de trigo de força (>= 12 % prot. / Manitoba)",
+          "category": "massa",
+          "quantityText": "7,25 kg (comprar 8 kg)"
+        },
+        {
+          "name": "Leite meio-gordo (1 L) ou água",
+          "category": "massa",
+          "quantityText": "2,65 L"
+        },
+        {
+          "name": "Açúcar branco fino",
+          "category": "massa",
+          "quantityText": "1,75 kg"
+        },
+        {
+          "name": "Manteiga sem sal (>= 80–82 % MG)",
+          "category": "massa",
+          "quantityText": "1,75 kg"
+        },
+        {
+          "name": "Ovos tamanho L (usar gemas ~18–19 g cada; guardar claras p/ glassa/uso doméstico)",
+          "category": "massa",
+          "quantityText": "70 ovos (~1.300 g gemas)"
+        },
+        {
+          "name": "Mel de flores ou rosmaninho",
+          "category": "massa",
+          "quantityText": "365 g"
+        },
+        {
+          "name": "Fermento padeiro fresco (cubos 25 g) OU seco (saquetas 7 g)",
+          "category": "massa",
+          "quantityText": "365 g fresco (15 cubos) / 116 g seco"
+        },
+        {
+          "name": "Sal fino",
+          "category": "massa",
+          "quantityText": "116 g"
+        },
+        {
+          "name": "Laranjas e limões frescos (para raspas + hidratação)",
+          "category": "massa",
+          "quantityText": "15 laranjas + 5 limões"
+        },
+        {
+          "name": "Pasta / extrato de baunilha",
+          "category": "massa",
+          "quantityText": "115 ml"
+        },
+        {
+          "name": "Cacau em pó 100 % (se parte do lote usar massa escura R03)",
+          "category": "massa",
+          "quantityText": "245 g"
+        },
+        {
+          "name": "Pepitas de chocolate forneáveis",
+          "category": "massa",
+          "quantityText": "1,70 kg"
+        },
+        {
+          "name": "Frutas cristalizadas + passas sultanas (para clássicos)",
+          "category": "massa",
+          "quantityText": "1,95 kg"
+        },
+        {
+          "name": "Leite condensado tradicional (latas 395–397 g)",
+          "category": "recheio",
+          "quantityText": "10 latas (~4,0 kg)"
+        },
+        {
+          "name": "Natas para bater (>= 35 % MG — pacotes 200 ml ou 1 L)",
+          "category": "recheio",
+          "quantityText": "3,60 L"
+        },
+        {
+          "name": "Chocolate negro 54 % / de leite para ganache e recheios",
+          "category": "recheio",
+          "quantityText": "2,20 kg"
+        },
+        {
+          "name": "Chocolate branco de pastelaria",
+          "category": "recheio",
+          "quantityText": "1,40 kg"
+        },
+        {
+          "name": "Leite em pó gordo integral",
+          "category": "recheio",
+          "quantityText": "500 g"
+        },
+        {
+          "name": "Doce de leite pasteleiro (ou latas cozidas)",
+          "category": "recheio",
+          "quantityText": "1,30 kg"
+        },
+        {
+          "name": "Creme de avelã e cacau + avelãs inteiras sem pele",
+          "category": "recheio",
+          "quantityText": "1,30 kg + 350 g"
+        },
+        {
+          "name": "Polpa de maracujá natural + flor de sal + nozes/amêndoa",
+          "category": "recheio",
+          "quantityText": "750 g polpa + 350 g frutos"
+        },
+        {
+          "name": "Formas de papel forneáveis 500 g (+10 % reserva)",
+          "category": "embalagem",
+          "quantityText": "29 unid."
+        },
+        {
+          "name": "Formas de papel forneáveis Mini 100–120 g (+10 % reserva)",
+          "category": "embalagem",
+          "quantityText": "16 unid."
+        },
+        {
+          "name": "Copos PET c/ tampa bolha (220 ml) + colheres embaladas",
+          "category": "embalagem",
+          "quantityText": "10 conjuntos"
+        },
+        {
+          "name": "Bases/pratos cartão dourado 16–18 cm (para recheados)",
+          "category": "embalagem",
+          "quantityText": "14 unid."
+        },
+        {
+          "name": "Caixas cartão c/ visor (para grandes recheados)",
+          "category": "embalagem",
+          "quantityText": "14 unid."
+        },
+        {
+          "name": "Sacos celofane 30×45 cm (clássicos 500 g)",
+          "category": "embalagem",
+          "quantityText": "12 unid."
+        },
+        {
+          "name": "Sacos celofane 15×25 cm (minis)",
+          "category": "embalagem",
+          "quantityText": "14 unid."
+        },
+        {
+          "name": "Fita cetim/juta + Etiquetas Marca Própria + Selos segurança",
+          "category": "embalagem",
+          "quantityText": "1 kit (50+50)"
+        },
+        {
+          "name": "Espetos bambu/aço (25–30 cm) para tombamento (reutilizáveis se aço)",
+          "category": "embalagem",
+          "quantityText": "52 unid."
+        },
+        {
+          "name": "Sacos de pasteleiro descartáveis",
+          "category": "embalagem",
+          "quantityText": "16 unid."
+        },
+        {
+          "name": "Película aderente alimentar (contacto recheios & tapar taças)",
+          "category": "embalagem",
+          "quantityText": "2 rolos"
+        },
+        {
+          "name": "Papel absorvente de cozinha (secar frutas/bancada) + papel alumínio",
+          "category": "embalagem",
+          "quantityText": "3 + 1 rolos"
+        },
+        {
+          "name": "Desinfetante alimentar de superfícies + luvas descartáveis",
+          "category": "embalagem",
+          "quantityText": "1 emb. + 1 cx"
+        }
+      ]
+    }
+  ],
+  "weekendSchedule": [
+    {
+      "id": "wk-1",
+      "day": "Quinta",
+      "phase": "preparacao",
+      "timeSlot": "20:00 – 20:20",
+      "title": "Confirmar sinais MB WAY e fechar lotes",
+      "detail": "Conferir o Caderno de Encomendas e gerar Lista de Compras."
+    },
+    {
+      "id": "wk-2",
+      "day": "Sexta",
+      "phase": "preparacao",
+      "timeSlot": "09:30 – 11:00",
+      "title": "Compras & Higienização da bancada",
+      "detail": "Comprar farinha de força, manteiga, ovos, natas e conferir embalagens."
+    },
+    {
+      "id": "wk-3",
+      "day": "Sexta",
+      "phase": "preparacao",
+      "timeSlot": "14:30 – 15:30",
+      "title": "Pesar secos dos 4 lotes em kits",
+      "detail": "Separar farinhas, açúcares, mel e sal em recipientes etiquetados."
+    },
+    {
+      "id": "wk-4",
+      "day": "Sexta",
+      "phase": "preparacao",
+      "timeSlot": "15:30 – 17:30",
+      "title": "Cozinhar recheios, ganaches e hidratar frutas",
+      "detail": "Preparar na véspera para atingir ponto firme no frio (<= 5 °C)."
+    },
+    {
+      "id": "wk-5",
+      "day": "Sábado",
+      "phase": "fermentacao",
+      "timeSlot": "07:30 – 12:15",
+      "title": "Amassaduras e 2.ª fermentação (Lotes 1 a 4)",
+      "detail": "Escalonar 4 lotes de ~2,45 kg para respeitar a batedeira e o forno doméstico."
+    },
+    {
+      "id": "wk-6",
+      "day": "Sábado",
+      "phase": "cozedura",
+      "timeSlot": "12:30 – 17:00",
+      "title": "Fornadas sequenciais (165 °C → 92–94 °C) e Tombamento",
+      "detail": "Pendurar de cabeça para baixo 8–12 h durante a noite."
+    },
+    {
+      "id": "wk-7",
+      "day": "Domingo",
+      "phase": "embalamento",
+      "timeSlot": "08:30 – 12:15",
+      "title": "Escavar, rechear, montar copos e etiquetar",
+      "detail": "Aplicar rotulagem com alergénios em destaque e conferir valores em falta."
+    },
+    {
+      "id": "wk-8",
+      "day": "Domingo",
+      "phase": "embalamento",
+      "timeSlot": "14:30 – 18:30",
+      "title": "Janela de levantamentos e rota de entregas",
+      "detail": "Receber os restantes 50 % e marcar pedidos como Entregues."
+    }
+  ],
+  "downloads": []
+}

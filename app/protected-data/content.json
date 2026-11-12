@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-11-12T22:37:06.968Z",
+  "generatedAt": "2026-11-12T22:47:06.523Z",
+  "isDemoMode": false,
   "brand": {
     "name": "Panetones que Rendem",
     "edition": "Natal 2026 · Portugal (PT-PT)",
@@ -234,7 +235,7 @@
         "allergens": "Contém GLÚTEN (trigo), OVOS e LEITE (manteiga e eventual leite na massa). Pode conter vestígios de SOJA ou FRUTOS DE CASCA RIJA conforme inclusões ou contaminação cruzada da cozinha."
       },
       "errorsAndTesting": {
-        "commonErrors": "",
+        "commonErrors": "Usar farinha T45 para bolos (abate no forno); adicionar manteiga toda de uma vez no início (miolo pesado tipo bolo); retirar do forno antes dos 92 °C internos.",
         "testingNotice": "Os tempos de fermentação (1 h–5 h) e cozedura (35–42 min) variam consoante a temperatura real da sua cozinha e calibração do seu forno doméstico. Execute sempre uma fornada de teste físico antes de abrir encomendas comerciais."
       },
       "defaultReferencePriceEur": 11.5
@@ -6459,6 +6460,26 @@
       "fileName": "etiquetas-marca-propria-a4.pdf"
     },
     {
+      "id": "dl-kit-card-pdf",
+      "fileKey": "card-whatsapp-abertura.pdf",
+      "title": "Cartão Abertura WhatsApp (PDF 9:16)",
+      "description": "Cartão vetorial pronto a partilhar ou imprimir.",
+      "category": "materiais",
+      "format": "PDF",
+      "sizeLabel": "161 KB",
+      "fileName": "card-whatsapp-abertura.pdf"
+    },
+    {
+      "id": "dl-kit-feed-pdf",
+      "fileKey": "post-feed-sabores.pdf",
+      "title": "Post 5 Sabores Principais (PDF 1:1)",
+      "description": "Folheto quadrado pronto para redes sociais ou WhatsApp.",
+      "category": "materiais",
+      "format": "PDF",
+      "sizeLabel": "126 KB",
+      "fileName": "post-feed-sabores.pdf"
+    },
+    {
       "id": "dl-png-card",
       "fileKey": "card-whatsapp-abertura.png",
       "title": "Cartão Abertura de Encomendas (Stories / Estado 9:16)",
@@ -6509,6 +6530,16 @@
       "fileName": "caderno-encomendas-editavel.csv"
     },
     {
+      "id": "dl-csv-cal",
+      "fileKey": "calendario-producao-entregas-editavel.csv",
+      "title": "Calendário de Produção e Entregas 2026 (.csv)",
+      "description": "Lotes sazonais de Natal e controlo automático de vagas restantes.",
+      "category": "editaveis",
+      "format": "CSV",
+      "sizeLabel": "2 KB",
+      "fileName": "calendario-producao-entregas-editavel.csv"
+    },
+    {
       "id": "dl-csv-lista",
       "fileKey": "lista-compras-editavel-10-30-50.csv",
       "title": "Lista de Compras 10/30/50 Editável (.csv)",
@@ -6547,6 +6578,26 @@
       "format": "HTML",
       "sizeLabel": "7 KB",
       "fileName": "menu-natal-3-produtos-editavel.html"
+    },
+    {
+      "id": "dl-html-card",
+      "fileKey": "card-whatsapp-abertura-editavel.html",
+      "title": "Editor HTML Cartão WhatsApp (9:16)",
+      "description": "Personalize a mensagem de abertura de encomendas e exporte do navegador.",
+      "category": "editaveis",
+      "format": "HTML",
+      "sizeLabel": "6 KB",
+      "fileName": "card-whatsapp-abertura-editavel.html"
+    },
+    {
+      "id": "dl-html-feed",
+      "fileKey": "post-feed-sabores-editavel.html",
+      "title": "Editor HTML Post Sabores (1:1)",
+      "description": "Personalize os sabores e destaque a sua marca antes de exportar.",
+      "category": "editaveis",
+      "format": "HTML",
+      "sizeLabel": "5 KB",
+      "fileName": "post-feed-sabores-editavel.html"
     }
   ]
 }

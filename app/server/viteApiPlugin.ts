@@ -39,7 +39,7 @@ function sendJson(res: any, status: number, obj: unknown, extraHeaders: Record<s
 }
 
 export function pqrLocalApiPlugin(appRoot: string): Plugin {
-  const { dataPath, downloadsDir } = resolveAppPaths(appRoot);
+  const { dataPath, demoDataPath, downloadsDir } = resolveAppPaths(appRoot);
 
   const attachMiddleware = (middlewares: any, isDevServer: boolean) => {
     middlewares.use(async (req: any, res: any, next: any) => {
@@ -150,19 +150,25 @@ export function pqrLocalApiPlugin(appRoot: string): Plugin {
         if (!session) {
           return sendJson(res, 401, { error: 'Autenticação necessária.' });
         }
-        if (!fs.existsSync(dataPath)) {
+        const targetPath = session.mode === 'preview' ? demoDataPath : dataPath;
+        if (!fs.existsSync(targetPath)) {
           return sendJson(res, 500, { error: 'Conteúdo não sincronizado.' });
         }
         res.statusCode = 200;
         res.setHeader('Content-Type', 'application/json; charset=utf-8');
         res.setHeader('Cache-Control', 'private, no-store');
-        return res.end(fs.readFileSync(dataPath, 'utf-8'));
+        return res.end(fs.readFileSync(targetPath, 'utf-8'));
       }
 
       if (url.pathname === '/api/download' && req.method === 'GET') {
         const session = getSessionFromHeaders(req.headers, true);
         if (!session) {
           return sendJson(res, 401, { error: 'Acesso negado.' });
+        }
+        if (session.mode !== 'buyer') {
+          return sendJson(res, 403, {
+            error: 'Modo Demonstração QA: descargas integrais bloqueadas sem sessão de comprador.',
+          });
         }
         const rawFile = url.searchParams.get('file') || '';
         const safeName = path.basename(rawFile);

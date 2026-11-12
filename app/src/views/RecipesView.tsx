@@ -282,7 +282,7 @@ export function RecipesView({
   return (
     <div>
       <div className="section-header">
-        <h2>30 Receitas & Fichas Técnicas</h2>
+        <h2>{recipes.length < 30 ? 'Receitas de Amostra (Demo QA)' : '30 Receitas & Fichas Técnicas'}</h2>
         <span className="badge badge-wine">{filtered.length} mostradas</span>
       </div>
 

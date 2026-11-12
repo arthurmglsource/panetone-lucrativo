@@ -192,6 +192,9 @@ export default function App() {
       navigator.serviceWorker.controller.postMessage({ type: 'CLEAR_PROTECTED_CACHE' });
     }
     setContent(null);
+    setTab('home');
+    setSelectedRecipeId(null);
+    setSelectedModuleId(null);
     setSession({ authenticated: false, mode: 'anonymous' });
   };
 

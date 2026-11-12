@@ -1,4 +1,4 @@
-Categoria;Item (PT-PT);Unidade;Qtd_Lote_10;Qtd_Lote_30;Qtd_Lote_50;Lote_Escolhido_Qtd;Preco_Unitario_EUR;Subtotal_EUR;Comprado
+﻿Categoria;Item (PT-PT);Unidade;Qtd_Lote_10;Qtd_Lote_30;Qtd_Lote_50;Lote_Escolhido_Qtd;Preco_Unitario_EUR;Subtotal_EUR;Comprado
 Massa;Farinha de trigo de força (>=12% prot. / Manitoba);kg;1.25;4.40;7.25;0;0;=G2*H2;NAO
 Massa;Leite meio-gordo;L;0.45;1.60;2.65;0;0;=G3*H3;NAO
 Massa;Açúcar branco fino;kg;0.30;1.06;1.75;0;0;=G4*H4;NAO

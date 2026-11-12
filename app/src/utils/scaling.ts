@@ -257,3 +257,4 @@ export function buildShoppingPlanFromOrders(orders: Order[], includePendingDepos
 
   return Array.from(byRecipe.entries()).map(([recipeId, units]) => ({ recipeId, units }));
 }
+

@@ -39,3 +39,12 @@
 - **Fase 6 (QA Técnico, Segurança, E2E e Documentação):** **Concluída**
   - Testes unitários/segurança (`npm test`: `9/9`), `tsc -b` + `vite build`, verificação HTTP 401/400/200 nas APIs e E2E em Chrome Headless CDP (`390×844` e `1280×840`, `0` erros de consola) documentados em `panetones-que-rendem/08-qa/RELATORIO_QA_FINAL.md`.
   - Branch de desenvolvimento: `dev/produto-digital` (landing page de produção em `main` intocada).
+
+
+---
+
+## Finalização para Entrega Hotmart & Auditoria Integral (2026-11-12)
+
+- **Auditoria Final (PT-PT, CSVs, Downloads):** Adicionado UTF-8 BOM aos 5 CSVs editáveis, corrigido parser de `commonErrors` na Receita 01 (`sync-content.mjs`) e incluídos todos os `24` artefactos em `app/protected-downloads/`.
+- **Demo QA Segura & Testes E2E Completos:** Adicionado `demo-content.json` (`2` receitas amostra, `0` downloads) para `mode === 'preview'` com bloqueio HTTP `403` em `/api/download`; validado ciclo completo Demo + Comprador em Mobile (`390×844`) e Desktop (`1280×840`) com persistência pós-reload.
+- **Pacote Hotmart & Documentação Final:** Criado `entrega-hotmart/Pacote-Completo-Panetones-que-Rendem.zip` (`21.72 MB`, `25` ficheiros) + pastas organizadas + `README.md` + `docs/{MANUAL_HOTMART,RELATORIO_QA,PENDENCIAS,HANDOFF}.md`.

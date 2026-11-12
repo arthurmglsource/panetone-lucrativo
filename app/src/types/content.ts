@@ -111,6 +111,7 @@ export interface ProductionWeekendBlock {
 
 export interface ProtectedContentPayload {
   generatedAt: string;
+  isDemoMode?: boolean;
   brand: {
     name: string;
     edition: string;

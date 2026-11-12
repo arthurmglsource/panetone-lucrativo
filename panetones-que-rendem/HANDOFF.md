@@ -23,3 +23,14 @@
 
 ## 4. Comando de Continuação
 > *"Lê `panetones-que-rendem/PROGRESS.md`, `panetones-que-rendem/HANDOFF.md`, `panetones-que-rendem/RELATORIO_VALIDACAO.md` e `panetones-que-rendem/00-auditoria/03-estrutura-editorial-e-app.md` na branch `dev/produto-digital` e executa a **Fase 5** (Aplicação Web Isolada em `app/`) seguida da **Fase 6** (QA Final), mantendo a landing page na branch `main` intacta."*
+
+
+---
+
+## Atualização — Checkpoint Fases 5 e 6 Concluídas (2026-11-12)
+
+- **Estado atual:** Produto digital completo (`produto-digital/`) e aplicação Web PWA isolada (`app/`) finalizados e validados na branch `dev/produto-digital`. Landing page em `main` 100 % preservada.
+- **Documentação principal:**
+  - `panetones-que-rendem/08-qa/RELATORIO_QA_FINAL.md` — evidência de testes unitários (`9/9`), segurança API (`/api/content`, `/api/download`), build (`tsc -b && vite build`) e E2E visual mobile/desktop em Chrome Headless.
+  - `app/INTEGRACAO_HOTMART_E_SEGURANCA.md` — variáveis de ambiente (`SESSION_SECRET`, `HOTMART_HOTTOK`, `KV_REST_API_*`, `BUYER_ACCESS_CODES`) e passos para deploy independente na Vercel (`Root Directory: app`).
+- **Ação pendente de operação (infraestrutura):** criar o projeto Vercel separado apontado para `app/`, configurar as variáveis de ambiente e apontar o Webhook Hotmart conforme `app/INTEGRACAO_HOTMART_E_SEGURANCA.md`.

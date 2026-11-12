@@ -26,3 +26,16 @@
 2. **Coerência entre copy e mockup:** o mockup visual promete *30 Receitas*, *Calculadora de Preços/Lucro*, *Plano de Vendas*, *Calendário de Produção*, *Fichas de Receitas*, *Catálogo* e acesso mobile; todos foram incluídos na matriz para entrega dupla (PDF + App).
 3. **Veracidade técnica e legal:** as 30 fichas serão apresentadas como formulações técnicas orientativas de panificação (exigindo teste no forno do produtor), e todos os valores financeiros serão sinalizados como exemplos ilustrativos até o utilizador inserir os seus custos reais em euros.
 4. **Estrutura dual integrada:** `panetones-que-rendem/` guarda fontes, auditoria, textos-mestre e QA; `produto-digital/` guarda os PDFs/entregáveis finais; `app/` guarda a aplicação web isolada para deploy Vercel próprio.
+
+
+---
+
+## Atualização — Fases 5 e 6 Concluídas (2026-11-12)
+
+- **Fase 5 (Aplicação Web / PWA em `app/`):** **Concluída**
+  - Aplicação React + TypeScript + Vite (`app/`) implementada com sincronização única (`app/scripts/sync-content.mjs`) a partir de `panetones-que-rendem/` e `produto-digital/` (`30` receitas, `6` módulos, `17` fornecedores PT, `19` guiões WhatsApp e `19` ficheiros protegidos para download).
+  - Todas as 10 áreas funcionais implementadas: `Início`, `Receitas`, `Modo Cozinha` (passos, checklists, temporizadores ao vivo + áudio + Wake Lock), `Ajustar Quantidades`, `Calculadora de Preços €`, `Encomendas` (sinal 50 % MB WAY), `Lista de Compras`, `Calendário`, `Catálogo de Natal` (PNG Canvas + WhatsApp + PDF/impressão) e `Bónus & Biblioteca`.
+  - Autenticação serverless (`app/api/*`, `app/server/authCore.ts`) com cookie `HttpOnly` HMAC-SHA256 e proteção total dos ficheiros pagos fora de `public/`.
+- **Fase 6 (QA Técnico, Segurança, E2E e Documentação):** **Concluída**
+  - Testes unitários/segurança (`npm test`: `9/9`), `tsc -b` + `vite build`, verificação HTTP 401/400/200 nas APIs e E2E em Chrome Headless CDP (`390×844` e `1280×840`, `0` erros de consola) documentados em `panetones-que-rendem/08-qa/RELATORIO_QA_FINAL.md`.
+  - Branch de desenvolvimento: `dev/produto-digital` (landing page de produção em `main` intocada).

@@ -1,0 +1,34 @@
+Pedido_ID;Data_Pedido;Cliente;Telemovel_WhatsApp;Produto_Sabor;Quantidade;Valor_Total_EUR;Sinal_50pct_EUR;Sinal_Pago_MBWAY;Data_Sinal;Valor_Em_Falta_EUR;Data_Producao;Data_Hora_Entrega;Tipo_Entrega;Alergenos_Observacoes;Estado
+EX-001;2026-12-10;Ana Silva (EXEMPLO ILUSTRATIVO);910000000;1x Recheado Leite em Pó + 2x Mini Pepitas;3;23.50;=G2*0.5;SIM;2026-12-10;=IF(I2="SIM",G2-H2,G2);2026-12-12;2026-12-13 16:00;Levantamento;Exemplo ilustrativo — sem restrições comunicadas;Confirmado
+EX-002;2026-12-10;João Pereira (EXEMPLO ILUSTRATIVO);960000000;2x Panetone no Copo Avelã + 1x Clássico Frutas;3;21.50;=G3*0.5;NAO;;=IF(I3="SIM",G3-H3,G3);2026-12-12;2026-12-13 17:30;Entrega Local;Exemplo ilustrativo — confirmar sinal em 24h;Aguarda Sinal
+001;;;;;0;0;=G4*0.5;NAO;;=IF(I4="SIM",G4-H4,G4);;;;;Aguarda Sinal
+002;;;;;0;0;=G5*0.5;NAO;;=IF(I5="SIM",G5-H5,G5);;;;;Aguarda Sinal
+003;;;;;0;0;=G6*0.5;NAO;;=IF(I6="SIM",G6-H6,G6);;;;;Aguarda Sinal
+004;;;;;0;0;=G7*0.5;NAO;;=IF(I7="SIM",G7-H7,G7);;;;;Aguarda Sinal
+005;;;;;0;0;=G8*0.5;NAO;;=IF(I8="SIM",G8-H8,G8);;;;;Aguarda Sinal
+006;;;;;0;0;=G9*0.5;NAO;;=IF(I9="SIM",G9-H9,G9);;;;;Aguarda Sinal
+007;;;;;0;0;=G10*0.5;NAO;;=IF(I10="SIM",G10-H10,G10);;;;;Aguarda Sinal
+008;;;;;0;0;=G11*0.5;NAO;;=IF(I11="SIM",G11-H11,G11);;;;;Aguarda Sinal
+009;;;;;0;0;=G12*0.5;NAO;;=IF(I12="SIM",G12-H12,G12);;;;;Aguarda Sinal
+010;;;;;0;0;=G13*0.5;NAO;;=IF(I13="SIM",G13-H13,G13);;;;;Aguarda Sinal
+011;;;;;0;0;=G14*0.5;NAO;;=IF(I14="SIM",G14-H14,G14);;;;;Aguarda Sinal
+012;;;;;0;0;=G15*0.5;NAO;;=IF(I15="SIM",G15-H15,G15);;;;;Aguarda Sinal
+013;;;;;0;0;=G16*0.5;NAO;;=IF(I16="SIM",G16-H16,G16);;;;;Aguarda Sinal
+014;;;;;0;0;=G17*0.5;NAO;;=IF(I17="SIM",G17-H17,G17);;;;;Aguarda Sinal
+015;;;;;0;0;=G18*0.5;NAO;;=IF(I18="SIM",G18-H18,G18);;;;;Aguarda Sinal
+016;;;;;0;0;=G19*0.5;NAO;;=IF(I19="SIM",G19-H19,G19);;;;;Aguarda Sinal
+017;;;;;0;0;=G20*0.5;NAO;;=IF(I20="SIM",G20-H20,G20);;;;;Aguarda Sinal
+018;;;;;0;0;=G21*0.5;NAO;;=IF(I21="SIM",G21-H21,G21);;;;;Aguarda Sinal
+019;;;;;0;0;=G22*0.5;NAO;;=IF(I22="SIM",G22-H22,G22);;;;;Aguarda Sinal
+020;;;;;0;0;=G23*0.5;NAO;;=IF(I23="SIM",G23-H23,G23);;;;;Aguarda Sinal
+021;;;;;0;0;=G24*0.5;NAO;;=IF(I24="SIM",G24-H24,G24);;;;;Aguarda Sinal
+022;;;;;0;0;=G25*0.5;NAO;;=IF(I25="SIM",G25-H25,G25);;;;;Aguarda Sinal
+023;;;;;0;0;=G26*0.5;NAO;;=IF(I26="SIM",G26-H26,G26);;;;;Aguarda Sinal
+024;;;;;0;0;=G27*0.5;NAO;;=IF(I27="SIM",G27-H27,G27);;;;;Aguarda Sinal
+025;;;;;0;0;=G28*0.5;NAO;;=IF(I28="SIM",G28-H28,G28);;;;;Aguarda Sinal
+026;;;;;0;0;=G29*0.5;NAO;;=IF(I29="SIM",G29-H29,G29);;;;;Aguarda Sinal
+027;;;;;0;0;=G30*0.5;NAO;;=IF(I30="SIM",G30-H30,G30);;;;;Aguarda Sinal
+028;;;;;0;0;=G31*0.5;NAO;;=IF(I31="SIM",G31-H31,G31);;;;;Aguarda Sinal
+029;;;;;0;0;=G32*0.5;NAO;;=IF(I32="SIM",G32-H32,G32);;;;;Aguarda Sinal
+030;;;;;0;0;=G33*0.5;NAO;;=IF(I33="SIM",G33-H33,G33);;;;;Aguarda Sinal
+RESUMO_REAIS;TOTAL PEDIDOS (LINHAS 001-030);;;;=SUM(F4:F33);=SUM(G4:G33);=SUMIF(I4:I33,"SIM",H4:H33);; ;=SUM(K4:K33);;;;;

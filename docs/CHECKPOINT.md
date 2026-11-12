@@ -17,3 +17,12 @@
 
 ## Próximo Passo
 - **Fase 5:** Desenvolver a aplicação web isolada em `app/` (React + Vite + TypeScript) preparada para deploy independente na Vercel, seguindo depois para a Fase 6 (QA Final).
+
+
+---
+
+## Checkpoint Final — Produto Digital + App PWA (Fases 5 e 6) — 2026-11-12
+
+- **Branch:** `dev/produto-digital` (nenhum ficheiro da landing page `main` modificado).
+- **Aplicação:** pasta isolada `app/` com dependências próprias (`React 19`, `Vite 6`, `TypeScript`, `Vitest`), sincronização automática com `panetones-que-rendem/` e `produto-digital/`, e backend serverless `app/api/*` com sessão `HttpOnly`.
+- **Verificações após últimas alterações:** `npm test` (`9/9`), `npm run build` (`0` leaks em `dist/`), segurança HTTP (`401`/`400`/`200 %PDF-`) e E2E CDP em `390×844` + `1280×840` (`0` erros de consola). Relatório completo em `panetones-que-rendem/08-qa/RELATORIO_QA_FINAL.md`.

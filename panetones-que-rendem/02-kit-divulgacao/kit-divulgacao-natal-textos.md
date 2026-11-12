@@ -113,7 +113,7 @@
 
 ### Post 4 — Destaque de Sabor (Adaptável para os 5 Sabores)
 > **Legenda:**  
-> Team **Leite em Pó cremoso** ou team **Duplo Chocolate 54 %**? 😍  
+> Equipa **Leite em Pó cremoso** ou equipa **Duplo Chocolate 54 %**? 😍  
 > Cada panetone recheado leva massa macia aromática com um núcleo generoso de creme preparado na nossa cozinha e cobertura brilhante pronta para a ceia.  
 >  
 > 👉 Reserve já o seu para a próxima fornada pelo WhatsApp `[9XX XXX XXX]`.

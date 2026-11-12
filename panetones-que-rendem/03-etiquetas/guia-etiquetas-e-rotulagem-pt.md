@@ -2,7 +2,7 @@
 
 > **Coerência Legal e Editorial (Portugal / União Europeia):**  
 > Em Portugal, géneros alimentícios pré-embalados para venda ao público estão sujeitos ao **Regulamento (UE) n.º 1169/2011**, às normas de higiene (**Reg. (CE) n.º 852/2004**) e à fiscalização da **ASAE**.  
-> **Proibição estrita deste guia:** **Nunca** invente selos de certificação biológica/artesanal oficial, prémios ou **tabelas nutricionais calculadas "a olho"** que não tenham sido determinadas por método válido ou análise laboratorial. Apenas utilize alegações e informações verdadeiras que correspondam exatamente ao que colocou na receita!
+> **Proibição estrita deste guia:** **Nunca** invente selos de certificação biológica/tradicional oficial, prémios ou **tabelas nutricionais calculadas "a olho"** que não tenham sido determinadas por método válido ou análise laboratorial. Atenção também às orientações da **ASAE** quanto ao uso de expressões como *"caseiro"* ou *"artesanal"*: estas menções nunca podem induzir o consumidor em erro quanto à natureza ou método real de fabrico (na dúvida, utilize denominações descritivas neutras como *"Panetone de Produção Própria"* ou apenas *"Panetone Recheado de [...]"*). Apenas utilize alegações e informações verdadeiras que correspondam exatamente ao que colocou na receita!
 
 ---
 

@@ -6,7 +6,7 @@
 
 ## Ficha Técnica Resumida
 
-- **Rendimento:** `6 copos` de `220 ml` (`~205 g` cada)
+- **Rendimento:** `6 copos` de `220 ml` (`~210 g` líquidos cada)
 - **Dificuldade:** Fácil
 - **Tempo ativo:** `~25 min` | **Conservação:** Frigorífico (`0 °C a 5 °C`)
 
@@ -26,7 +26,7 @@
 
 **Calda Leve & Crocante (`6 copos`):**
 - `80 ml` de água + `15 g` de açúcar + `5 ml` de baunilha (fervida `2 min` e totalmente fria!)
-- `60 g` de **avelãs tostadas sem pele picadas** + `45 g` de bolacha wafer/barquillo triturado grosso (ou chocolate crocante)
+- `60 g` de **avelãs tostadas sem pele picadas** + `45 g` de folhado crocante (*feuilletine*) ou bolacha *wafer* triturada grossa (ou chocolate crocante)
 
 ## Preparação Numerada Passo a Passo
 

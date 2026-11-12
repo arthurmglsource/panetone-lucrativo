@@ -6,7 +6,7 @@
 
 ## Ficha Técnica Resumida
 
-- **Rendimento:** `6 copos` de `220 ml` (`~205 g` cada)
+- **Rendimento:** `6 copos` de `220 ml` (`~215 g – 220 g` líquidos cada)
 - **Dificuldade:** Média
 - **Tempo ativo:** `~30 min` + `2 h` repouso frio | **Conservação:** Obrigatória em frigorífico (`0 °C a 5 °C`)
 

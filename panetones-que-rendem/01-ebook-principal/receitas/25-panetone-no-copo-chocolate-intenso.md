@@ -6,7 +6,7 @@
 
 ## Ficha Técnica Resumida
 
-- **Rendimento:** `6 copos` de `220 ml` (`~205 g – 215 g` líquidos por copo)
+- **Rendimento:** `6 copos` de `220–250 ml` (`~220 g – 230 g` líquidos por copo)
 - **Dificuldade:** Fácil
 - **Tempo ativo:** `~25 min` (creme + calda + montagem) | **Temperatura de serviço/guarda:** Refrigerado (`0 °C a 5 °C`)
 

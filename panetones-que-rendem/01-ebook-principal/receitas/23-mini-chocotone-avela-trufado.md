@@ -27,7 +27,7 @@
 
 **Cobertura & Coroa de Avelã (`10 Minis`):**
 - `130 g` de chocolate negro `54 %` ou de leite picado + `50 ml` de natas (`35 %` MG)
-- `10` avelãs inteiras tostadas sem pele + `25 g` de avelãs tostadas picadas miúdas (ou *feullietine* / bolacha waffle triturada)
+- `10` avelãs inteiras tostadas sem pele + `25 g` de avelãs tostadas picadas miúdas (ou *feuilletine* / bolacha waffle fina triturada)
 
 ## Preparação Numerada Passo a Passo
 

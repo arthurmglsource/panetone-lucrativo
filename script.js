@@ -54,8 +54,9 @@
 
 (function(){
  var note=document.querySelector('[data-hero-note]'),text=document.querySelector('[data-hero-note-text]');if(!note||!text)return;
- var reduced=window.matchMedia('(prefers-reduced-motion: reduce)'),messages=['Acesso imediato após a confirmação','MB WAY, conforme disponível no checkout','Garantia de satisfação de 15 dias','Pagamento seguro pela Hotmart'],index=0,interval,transition;
+ var reduced=window.matchMedia('(prefers-reduced-motion: reduce)'),messages=['Garantia de satisfação de 15 dias para comprar com tranquilidade.','Acesso imediato após a confirmação','Pagamento seguro pela Hotmart'],index=0,interval,transition;
+ note.addEventListener('animationend',function(e){if(e.target===note)note.classList.add('is-settled');},{once:true});
  function stop(){clearInterval(interval);clearTimeout(transition);note.classList.remove('is-changing');}
- function start(){stop();if(reduced.matches)return;interval=setInterval(function(){if(document.hidden)return;note.classList.add('is-changing');transition=setTimeout(function(){index=(index+1)%messages.length;text.textContent=messages[index];note.classList.remove('is-changing');},250);},3800);}
+ function start(){stop();if(reduced.matches)return;interval=setInterval(function(){if(document.hidden)return;note.classList.add('is-settled');note.classList.add('is-changing');transition=setTimeout(function(){index=(index+1)%messages.length;text.textContent=messages[index];note.classList.remove('is-changing');},250);},3800);}
  if(reduced.addEventListener)reduced.addEventListener('change',start);start();
 })();

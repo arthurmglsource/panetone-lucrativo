@@ -13,8 +13,8 @@
 | **Fase 0** | Inspeção de arquitetura e isolamento Git/Vercel | Concluída | Branch `dev/produto-digital` criada; pastas `produto-digital/`, `app/`, `docs/` preparadas. |
 | **Fase 1** | **Comando 01:** Auditoria, Matriz, Estrutura, Diretório, Requisitos, Fontes | **Concluída** | Todos os 6 entregáveis criados em `panetones-que-rendem/00-auditoria/` e `07-pesquisa-fontes/`. |
 | **Fase 2** | Pesquisa técnica profunda & Redação do Guia Principal + 30 Fichas | **Concluída** | **40 ficheiros Markdown** completos em `01-ebook-principal/` (Intro/Índice, 6 Módulos, 7 Dias & Checklist, Glossário & FAQ + 30 receitas individuais em `receitas/01–30`). |
-| **Fase 3** | Kit de Divulgação (*Kit Vende Sozinho*) & Etiquetas Marca Própria | **Próxima** | Templates em `02-kit-divulgacao/` e `03-etiquetas/` + 3 Bónus. |
-| **Fase 4** | Os 3 Bónus & Compilação PDF Final em `produto-digital/` | Pendente | Gerar e inspecionar PDFs finais. |
+| **Fase 3** | Kit de Divulgação, Etiquetas, 3 Bónus & Extras Práticos | **Concluída** | Todos os 3 bónus (`04–06`), Kit de Divulgação + Menu 3 Produtos (`02`), Etiquetas Editáveis (`03`) e Extras Práticos (`09`) criados com dados reais PT-PT e CSVs/HTMLs reutilizáveis. |
+| **Fase 4** | Compilação Gráfica e PDFs Finais em `produto-digital/` | **Próxima** | Gerar e inspecionar visualmente os PDFs finais (e-books, bónus, kit e etiquetas) na identidade bordô/creme/dourado. |
 | **Fase 5** | Aplicação Web Isolada em `app/` (React/Vite/TS + Vercel) | Pendente | Desenvolver e testar todas as ferramentas interativas. |
 | **Fase 6** | QA Final (PT-PT, cálculos, responsividade, PDFs) & Entrega | Pendente | Relatórios em `08-qa/`. |
 

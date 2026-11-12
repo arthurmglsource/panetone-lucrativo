@@ -1,0 +1,37 @@
+Categoria;Item (PT-PT);Unidade;Qtd_Lote_10;Qtd_Lote_30;Qtd_Lote_50;Lote_Escolhido_Qtd;Preco_Unitario_EUR;Subtotal_EUR;Comprado
+Massa;Farinha de trigo de força (>=12% prot. / Manitoba);kg;1.25;4.40;7.25;0;0;=G2*H2;NAO
+Massa;Leite meio-gordo;L;0.45;1.60;2.65;0;0;=G3*H3;NAO
+Massa;Açúcar branco fino;kg;0.30;1.06;1.75;0;0;=G4*H4;NAO
+Massa;Manteiga sem sal (82% MG);kg;0.30;1.06;1.75;0;0;=G5*H5;NAO
+Massa;Ovos frescos tamanho L (gemas);unid;12;42;70;0;0;=G6*H6;NAO
+Massa;Mel de flores ou rosmaninho;kg;0.065;0.22;0.365;0;0;=G7*H7;NAO
+Massa;Fermento de padeiro fresco (cubos 25g);cubos;3;9;15;0;0;=G8*H8;NAO
+Massa;Sal fino;kg;0.02;0.07;0.116;0;0;=G9*H9;NAO
+Massa;Laranjas e limões frescos (raspas/sumo);kg;0.60;1.80;3.00;0;0;=G10*H10;NAO
+Massa;Extrato ou pasta de baunilha;frasco;1;1;2;0;0;=G11*H11;NAO
+Massa;Cacau em pó 100% puro;kg;0.035;0.14;0.245;0;0;=G12*H12;NAO
+Massa;Pepitas de chocolate forneáveis;kg;0.35;1.00;1.70;0;0;=G13*H13;NAO
+Massa;Frutas cristalizadas + passas sultanas;kg;0.30;1.25;1.95;0;0;=G14*H14;NAO
+Recheios_Coberturas;Leite condensado (latas 395g);unid;2;6;10;0;0;=G15*H15;NAO
+Recheios_Coberturas;Natas para bater (>=35% MG);L;0.60;2.20;3.60;0;0;=G16*H16;NAO
+Recheios_Coberturas;Chocolate negro 54% / leite pastelaria;kg;0.35;1.30;2.20;0;0;=G17*H17;NAO
+Recheios_Coberturas;Chocolate branco pastelaria;kg;0.22;0.85;1.40;0;0;=G18*H18;NAO
+Recheios_Coberturas;Leite em pó gordo integral;kg;0.10;0.30;0.50;0;0;=G19*H19;NAO
+Recheios_Coberturas;Doce de leite pasteleiro;kg;0.25;0.80;1.30;0;0;=G20*H20;NAO
+Recheios_Coberturas;Creme de avelã e cacau;kg;0.25;0.80;1.30;0;0;=G21*H21;NAO
+Recheios_Coberturas;Avelãs/Nozes/Amêndoas sem pele;kg;0.11;0.40;0.70;0;0;=G22*H22;NAO
+Recheios_Coberturas;Polpa de maracujá natural;kg;0.15;0.45;0.75;0;0;=G23*H23;NAO
+Embalagens;Formas papel forneáveis 500g (+reserva);unid;5;18;29;0;0;=G24*H24;NAO
+Embalagens;Formas papel forneáveis Mini 100-120g (+reserva);unid;5;9;16;0;0;=G25*H25;NAO
+Embalagens;Copos PET 220ml c/ tampa bolha + colher;unid;2;6;10;0;0;=G26*H26;NAO
+Embalagens;Bases cartão laminado dourado 16-18cm;unid;2;8;14;0;0;=G27*H27;NAO
+Embalagens;Caixas cartão c/ visor (para grandes);unid;2;8;14;0;0;=G28*H28;NAO
+Embalagens;Sacos celofane 30x45cm (grandes clássicos);unid;2;8;12;0;0;=G29*H29;NAO
+Embalagens;Sacos celofane 15x25cm (minis);unid;4;8;14;0;0;=G30*H30;NAO
+Embalagens;Fitas, etiquetas e selos de segurança;lote;1;1;1;0;0;=G31*H31;NAO
+Consumiveis;Espetos bambu/aço 25-30cm;pack;1;1;2;0;0;=G32*H32;NAO
+Consumiveis;Sacos de pasteleiro descartáveis;unid;4;10;16;0;0;=G33*H33;NAO
+Consumiveis;Película aderente alimentar;rolo;1;2;2;0;0;=G34*H34;NAO
+Consumiveis;Papel absorvente e papel alumínio;conj;1;2;2;0;0;=G35*H35;NAO
+RESUMO;TOTAL DA COMPRA (EUR);;;;;;;=SUM(I2:I35);
+RESUMO;COM QUEBRA DE +5% INGREDIENTES;;;;;;;"=SUM(I2:I23)*1.05+SUM(I24:I35)";

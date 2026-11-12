@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Post Feed 1:1 Editável — Sabores de Natal</title>
+  <style>
+    :root {
+      --wine: #4a0d16;
+      --wine-deep: #27070d;
+      --gold: #e5a93b;
+      --gold-light: #f5cf7a;
+      --cream: #fff5e6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #21070c;
+      color: var(--cream);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+    }
+    .bar {
+      max-width: 540px;
+      width: 100%;
+      background: #2e0a10;
+      border: 1px solid var(--gold);
+      border-radius: 10px;
+      padding: 12px;
+      font-size: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+    .bar button {
+      background: var(--gold);
+      color: var(--wine-deep);
+      border: none;
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .feed-square {
+      width: 540px;
+      height: 540px;
+      background: linear-gradient(155deg, var(--wine) 0%, var(--wine-deep) 100%);
+      border: 4px solid var(--gold);
+      border-radius: 18px;
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+    }
+    .feed-square::after {
+      content: "";
+      position: absolute;
+      inset: 10px;
+      border: 1px solid rgba(229, 169, 59, 0.35);
+      border-radius: 12px;
+      pointer-events: none;
+    }
+    [contenteditable="true"]:focus {
+      outline: 2px dashed var(--gold-light);
+      background: rgba(255, 255, 255, 0.08);
+    }
+    .head { text-align: center; }
+    .kicker {
+      color: var(--gold);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+    .title {
+      font-family: Georgia, serif;
+      font-size: 30px;
+      margin: 6px 0;
+      color: var(--cream);
+    }
+    .flavors-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+    .flavor-card {
+      background: var(--cream);
+      color: #2c1a1c;
+      border-radius: 12px;
+      padding: 10px 12px;
+      border-left: 5px solid var(--gold);
+    }
+    .flavor-card strong {
+      display: block;
+      font-family: Georgia, serif;
+      color: var(--wine);
+      font-size: 14px;
+      margin-bottom: 2px;
+    }
+    .flavor-card span {
+      font-size: 11.5px;
+      line-height: 1.35;
+      display: block;
+    }
+    .flavor-wide { grid-column: span 2; }
+    .bottom-cta {
+      background: var(--gold);
+      color: var(--wine-deep);
+      border-radius: 12px;
+      padding: 12px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 800;
+      font-size: 13px;
+    }
+    @media print {
+      body { background: #ffffff; padding: 0; }
+      .bar { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bar">
+    <span><strong>Post Quadrado Feed (1:1 — Instagram/Facebook)</strong> — Clique em qualquer texto para editar.</span>
+    <button onclick="window.print()">Imprimir / PDF</button>
+  </div>
+
+  <section class="feed-square">
+    <header class="head">
+      <div class="kicker" contenteditable="true">[SUA MARCA] · NATAL 2026</div>
+      <h1 class="title" contenteditable="true">Os 5 Sabores Mais Pedidos</h1>
+      <div style="font-size:13px; color:var(--gold-light);" contenteditable="true">Disponíveis em Grande Recheado, Mini ou Panetone no Copo</div>
+    </header>
+
+    <div class="flavors-grid">
+      <div class="flavor-card" contenteditable="true">
+        <strong>1. Duplo Chocolate 54 %</strong>
+        <span>Massa com pepitas ou cacau e creme rico de chocolate negro.</span>
+      </div>
+      <div class="flavor-card" contenteditable="true">
+        <strong>2. Creme de Leite em Pó</strong>
+        <span>Recheio lácteo aveludado e cobertura branca polvilhada.</span>
+      </div>
+      <div class="flavor-card" contenteditable="true">
+        <strong>3. Doce de Leite & Flor de Sal</strong>
+        <span>Doce de leite cremoso equilibrado com flor de sal portuguesa.</span>
+      </div>
+      <div class="flavor-card" contenteditable="true">
+        <strong>4. Maracujá & Choco Branco</strong>
+        <span>Acidez tropical fresca envolvida em ganache branca.</span>
+      </div>
+      <div class="flavor-card flavor-wide" contenteditable="true">
+        <strong>5. Creme de Avelã & Cacau (+ Clássicos de Frutas e Laranja disponíveis!)</strong>
+        <span>Creme gianduja cremoso finalizado com avelãs inteiras tostadas na hora.</span>
+      </div>
+    </div>
+
+    <footer class="bottom-cta" contenteditable="true">
+      <span>📲 Encomendas: 9XX XXX XXX</span>
+      <span>Sinal 50 % MB WAY · Vagas Limitadas</span>
+    </footer>
+  </section>
+</body>
+</html>

@@ -1,0 +1,34 @@
+Pedido_ID;Data_Pedido;Cliente;Telemovel_WhatsApp;Produto_Sabor;Quantidade;Valor_Total_EUR;Sinal_50pct_EUR;Sinal_Pago_MBWAY;Data_Sinal;Valor_Em_Falta_EUR;Data_Producao;Data_Hora_Entrega;Tipo_Entrega;Alergenos_Observacoes;Estado
+EX-001;2026-12-10;Ana Silva (EXEMPLO ILUSTRATIVO);910000000;1x Recheado Leite em Pó + 2x Mini Pepitas;3;23.50;11.75;SIM;2026-12-10;=G2-H2;2026-12-12;2026-12-13 16:00;Levantamento;Exemplo ilustrativo — sem restrições comunicadas;Confirmado
+EX-002;2026-12-10;João Pereira (EXEMPLO ILUSTRATIVO);960000000;2x Panetone no Copo Avelã + 1x Clássico Frutas;3;21.50;0;NAO;;=G3-0;2026-12-12;2026-12-13 17:30;Entrega Local;Exemplo ilustrativo — confirmar sinal em 24h;Aguarda Sinal
+001;;;;;;;;0;;=G4-I4;;;;;Aguarda Sinal
+002;;;;;;;;0;;=G5-I5;;;;;Aguarda Sinal
+003;;;;;;;;0;;=G6-I6;;;;;Aguarda Sinal
+004;;;;;;;;0;;=G7-I7;;;;;Aguarda Sinal
+005;;;;;;;;0;;=G8-I8;;;;;Aguarda Sinal
+006;;;;;;;;0;;=G9-I9;;;;;Aguarda Sinal
+007;;;;;;;;0;;=G10-I10;;;;;Aguarda Sinal
+008;;;;;;;;0;;=G11-I11;;;;;Aguarda Sinal
+009;;;;;;;;0;;=G12-I12;;;;;Aguarda Sinal
+010;;;;;;;;0;;=G13-I13;;;;;Aguarda Sinal
+011;;;;;;;;0;;=G14-I14;;;;;Aguarda Sinal
+012;;;;;;;;0;;=G15-I15;;;;;Aguarda Sinal
+013;;;;;;;;0;;=G16-I16;;;;;Aguarda Sinal
+014;;;;;;;;0;;=G17-I17;;;;;Aguarda Sinal
+015;;;;;;;;0;;=G18-I18;;;;;Aguarda Sinal
+016;;;;;;;;0;;=G19-I19;;;;;Aguarda Sinal
+017;;;;;;;;0;;=G20-I20;;;;;Aguarda Sinal
+018;;;;;;;;0;;=G21-I21;;;;;Aguarda Sinal
+019;;;;;;;;0;;=G22-I22;;;;;Aguarda Sinal
+020;;;;;;;;0;;=G23-I23;;;;;Aguarda Sinal
+021;;;;;;;;0;;=G24-I24;;;;;Aguarda Sinal
+022;;;;;;;;0;;=G25-I25;;;;;Aguarda Sinal
+023;;;;;;;;0;;=G26-I26;;;;;Aguarda Sinal
+024;;;;;;;;0;;=G27-I27;;;;;Aguarda Sinal
+025;;;;;;;;0;;=G28-I28;;;;;Aguarda Sinal
+026;;;;;;;;0;;=G29-I29;;;;;Aguarda Sinal
+027;;;;;;;;0;;=G30-I30;;;;;Aguarda Sinal
+028;;;;;;;;0;;=G31-I31;;;;;Aguarda Sinal
+029;;;;;;;;0;;=G32-I32;;;;;Aguarda Sinal
+030;;;;;;;;0;;=G33-I33;;;;;Aguarda Sinal
+RESUMO_REAIS;TOTAL PEDIDOS (LINHAS 001-030);;;;=SUM(F4:F33);=SUM(G4:G33);=SUM(H4:H33);;;=SUM(K4:K33);;;;;

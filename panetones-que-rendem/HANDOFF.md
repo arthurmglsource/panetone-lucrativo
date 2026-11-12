@@ -5,14 +5,16 @@
 - **Branch de trabalho:** `dev/produto-digital` (NUNCA alterar a branch `main` nem `index.html`, `*.css`, `*.js`, `assets/` ou `.vercel/` na raiz).
 - **Landing page oficial (referência):** `https://panetone-lucrativo-indol.vercel.app/`
 
-## 2. Onde Parámos (Checkpoint 04 — Revisão Técnica & Fase 4 Concluídas)
+## 2. Onde Parámos (Checkpoint 04B — Upgrade Editorial Premium da Fase 4 Concluído)
 - **Fase 1 (Auditoria & Estrutura):** Concluída (`00-auditoria/` e `07-pesquisa-fontes/`).
 - **Fase 2 (E-book Principal + 30 Receitas):** Concluída (`01-ebook-principal/`, 40 ficheiros Markdown PT-PT).
 - **Fase 3 (3 Bónus, 2 Materiais Extras e 4 Extras Práticos):** Concluída em texto, tabelas, CSVs e HTMLs editáveis PT-PT (`02`, `03`, `04`, `05`, `06`, `09`).
 - **Revisão Técnica & Legal PT:** Concluída (`panetones-que-rendem/RELATORIO_VALIDACAO.md`) com correções em CSVs, pesos das receitas no copo e alinhamento ASAE/DGAV/ePortugal/AT.
-- **Fase 4 (Compilação Gráfica & Pacote Final em `produto-digital/`):** **100 % concluída e verificada visualmente**:
-  - Compilador reproduzível em `panetones-que-rendem/build_pdfs.py` (HTML+CSS bordô/creme/dourado + logótipo oficial -> Chrome Headless `--print-to-pdf`).
-  - **11 PDFs finais** compilados em `produto-digital/{ebooks,bonus,materiais}/` (incluindo Guia Principal 33 págs., Caderno das 30 Receitas 65 págs., Lista de Compras 10/30/50 5 págs., Caderno de Encomendas A4 paisagem 5 págs., Guia de Fornecedores PT 6 págs., Guia WhatsApp 6 págs., Kit Operacional/Rotulagem 8 págs., Menu 3 Produtos 1 pág. A4, Etiquetas Marca Própria 2 págs. A4, Card WhatsApp 9:16 e Post Feed 1:1).
+- **Fase 4 (Upgrade Editorial Premium em `produto-digital/`):** **100 % concluída e verificada página a página**:
+  - **4 recursos visuais próprios** gerados sem texto (`panetones-que-rendem/assets-editoriais/*.jpg`): 3 fotografias gastronómicas + 1 ilustração cartoon natalícia coerentes com o bordô/dourado/creme e logótipo oficial intocado.
+  - Compilador reproduzível em `panetones-que-rendem/build_pdfs.py` (templates estruturados para fichas de receitas, grelhas 2 colunas, alertas semânticos, otimização de imagens e conversão PDF->PNG sem cortes via `PDFKit`).
+  - **12 PDFs finais** em `produto-digital/`: `00-comece-aqui-guia-rapido.pdf` (3 págs.), `ebooks/01-ebook-completo-panetones-que-rendem.pdf` (99 págs. A4, 84 hiperligações navegáveis com os 6 módulos + 30 receitas completas), `ebooks/02-caderno-30-fichas-receitas.pdf` (62 págs. A4, 60 links), `bonus/bonus-01` (5 págs.), `bonus/bonus-02` (5 págs. A4 paisagem), `bonus/bonus-03` (5 págs., 20 links clicáveis), `materiais/guia-mensagens-whatsapp.pdf` (6 págs.), `materiais/caderno-operacional-custos-calendario-rotulagem.pdf` (8 págs.), `materiais/catalogo-natal-personalizavel.pdf` (1 pág. A4), `materiais/etiquetas-marca-propria-a4.pdf` (2 págs. A4), `materiais/kit-divulgacao-natal/{card-whatsapp-abertura,post-feed-sabores}.pdf`.
+  - **3 imagens PNG prontas a partilhar** em `produto-digital/imagens/`: `card-whatsapp-abertura.png`, `post-feed-sabores.png` e `menu-natal-3-produtos.png`.
   - **9 ficheiros editáveis** organizados em `produto-digital/editaveis/` (5 `.csv` com fórmulas + 4 `.html` interativos `contenteditable`), inventariados em `produto-digital/README.md`.
 
 ## 3. Tarefas Pendentes para o Próximo Agente (Fase 5 → Fase 6)

@@ -1,0 +1,103 @@
+/* Mobile-first cleanup: evita cortes, sobreposições e blocos espremidos. */
+html,body{overflow-x:hidden}
+@media (max-width:699px){
+  .container{width:min(100% - 32px,1100px)}
+  .hero{min-height:100svh;min-height:100dvh;display:flex;align-items:center;padding:max(12px,env(safe-area-inset-top)) 0 max(26px,env(safe-area-inset-bottom))}
+  .hero-grid{display:block;width:100%;margin-top:auto;margin-bottom:auto}
+  .hero-copy{max-width:none}
+  .hero-logo{margin:0 auto}
+  .hero-logo .logo-image{width:112px}
+  h1{max-width:360px;margin:8px auto 12px;font-size:clamp(1.95rem,9.5vw,3.2rem);line-height:1.04;letter-spacing:-.03em}
+  h2{font-size:clamp(1.95rem,9.5vw,3.15rem);line-height:1.08}
+  .hero-lead{max-width:360px;margin:0 auto;font-size:.86rem;line-height:1.35}
+  .hero-offer{margin-top:14px}
+  .hero-price-card{width:100%;margin:0;padding:4px 0 12px;gap:4px}
+  .hero-price-card strong{font-size:3.35rem;line-height:.92}
+  .hero-price-card small{font-size:.7rem;line-height:1.2;text-align:center}
+  .hero-offer>.button{width:100%;max-width:none}
+  .hero-checks{gap:5px;margin-top:10px;font-size:.61rem;letter-spacing:-.01em}
+  .hero-copy>.button{min-height:52px;font-size:.78rem;padding:12px 14px}
+  .micro-proof{gap:5px 8px;margin-top:9px;font-size:.62rem}
+  .hero-quick-list{justify-content:center;gap:4px 9px;margin-top:9px;font-size:.62rem;line-height:1.2}
+  .hero-art{display:none}
+  .actual-hero-image{border-width:4px;border-radius:18px}
+  .hero-sticker{right:8px;bottom:12px;width:82px;height:82px;transform:none}
+  .hero-sticker strong{font-size:1.5rem}
+  .hero-sticker span{font-size:.54rem}
+  .sparkle{display:none}
+  .button{min-height:56px;padding:14px 16px;font-size:.86rem;line-height:1.2;letter-spacing:0}
+  .button-large{min-height:62px;font-size:.86rem}
+  .deadline-band{padding:24px 0}
+  .deadline-copy-block{text-align:center}
+  .deadline-kicker{margin-bottom:9px;font-size:.6rem}
+  .deadline-title{font-size:clamp(1.8rem,8.5vw,2.8rem);line-height:1.05}
+  .deadline-copy-block .deadline-copy{font-size:.88rem;line-height:1.35}
+  .countdown-card{padding:12px 8px;border-radius:16px}
+  .countdown-card .countdown{gap:5px}
+  .countdown-card .countdown>div{min-width:55px;padding:8px 5px;border-radius:10px}
+  .countdown-card .countdown>div:first-child{min-width:55px;padding:8px 5px;background:rgba(255,245,230,.34);color:var(--wine);border:1px solid rgba(74,13,22,.42);box-shadow:none}
+  .countdown-card .countdown strong{font-size:2.3rem}
+  .countdown-card .countdown>div:first-child strong{font-size:2.3rem}
+  .deadline-copy{font-size:.93rem}
+  .countdown{gap:4px}
+  .countdown>div{min-width:48px}
+  .countdown strong{font-size:2.05rem}
+  .countdown i{font-size:1.1rem}
+  .countdown span{font-size:.55rem;letter-spacing:.06em}
+  .pain-section,.receive-section,.numbers-section,.author-section,.guarantee-section,.method-section,.bonus-section,.testimonials-section,.offer-section,.faq-section{padding:58px 0}
+  .section-heading{margin-bottom:28px}
+  .section-intro{font-size:.96rem}
+  .closing-line{font-size:1.35rem}
+  .timeline{margin:34px 0 28px}
+  .timeline-item{grid-template-columns:48px 1fr;gap:14px;padding-bottom:24px}
+  .timeline-item:not(:last-child):after{left:23px;top:48px}
+  .step-number{width:48px;height:48px;font-size:1rem}
+  .timeline-item h3{font-size:1.05rem;line-height:1.15}
+  .timeline-item p{font-size:.9rem;line-height:1.4}
+  .module-banner{margin-bottom:18px;border-radius:14px}
+  .product-visual-grid{gap:12px}
+  .product-main-image{min-height:0;aspect-ratio:1}
+  .product-cover-image{min-height:0;aspect-ratio:.78}
+  .module-card{grid-template-columns:42px 1fr;gap:11px;padding:18px}
+  .module-card>strong{font-size:1.75rem}
+  .module-card h3{font-size:1rem;line-height:1.15}
+  .module-card p{font-size:.84rem;line-height:1.45}
+  .bonus-grid{margin-top:28px}
+  .bonus-card{padding:10px 10px 18px}
+  .bonus-card h3{font-size:1.05rem}
+  .bonus-card p{font-size:.86rem}
+  .numbers-grid{gap:28px}
+  .numbers-visuals{gap:20px}
+  .receipt{transform:none;padding:18px 16px}
+  .receipt-row{padding:14px 0}
+  .receipt-row span{font-size:.82rem}
+  .receipt-row strong{font-size:1rem}
+  .receipt-total{padding-top:18px}
+  .receipt-total span{font-size:.6rem}
+  .receipt-total strong{font-size:2.25rem}
+  .calculator-image{max-width:340px;margin:0 auto}
+  .batch-photo{margin-top:30px}
+  .image-placeholder-wide .photo-price-tag,.actual-hero-image .photo-price-tag,.product-main-image .photo-price-tag{right:10px;bottom:10px;padding:7px 9px;font-size:.62rem}
+  .extra-materials{margin-top:42px;padding-top:36px}
+  .extra-material-grid{gap:12px}
+  .offer-card{padding:24px 16px;border-radius:18px}
+  .check-list{gap:8px;margin:22px 0;font-size:.9rem}
+  .price-row{gap:8px;margin-bottom:20px}
+  .price-row strong{font-size:3.55rem;letter-spacing:-.05em}
+  .price-row span,.price-row small{font-size:.72rem}
+  .price-seal.actual-image-frame{width:76px;height:76px}
+  .secure-line{font-size:.65rem;line-height:1.35}
+  .guarantee-grid{gap:22px}
+  .guarantee-seal.actual-image-frame{width:132px;height:132px}
+  summary{padding:18px 0;font-size:.92rem;line-height:1.35}
+  details p{font-size:.9rem;line-height:1.5}
+  .final-cta{padding:62px 0}
+  .final-cta p:not(.eyebrow){font-size:.98rem}
+  .sticky-cta{gap:8px;padding:8px 10px}
+  .sticky-cta strong{font-size:.7rem}
+  .sticky-cta span{font-size:1rem}
+  .sticky-cta .button{min-height:48px;padding:10px 30px 10px 14px;font-size:.82rem;justify-content:center;text-align:center;line-height:1.05}
+  .sticky-cta .button>span{right:12px}
+  .site-footer{padding-bottom:92px}
+  .brand-footer .logo-image{width:118px}
+}

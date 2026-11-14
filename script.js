@@ -1,4 +1,48 @@
 (function(){'use strict';
+  var CHECKOUT_CONFIG={
+    baseUrl:'https://pay.hotmart.com/T108465363N',
+    fixedParams:{checkoutMode:'10'},
+    allowedTrackingParams:['utm_source','utm_medium','utm_campaign','utm_content','utm_term','src','sck','xcod']
+  };
+  function buildCheckoutUrl(currentHref){
+    var target=new URL(CHECKOUT_CONFIG.baseUrl);
+    Object.keys(CHECKOUT_CONFIG.fixedParams).forEach(function(key){
+      target.searchParams.set(key,CHECKOUT_CONFIG.fixedParams[key]);
+    });
+    var existingParams=null;
+    try{
+      if(currentHref){
+        var parsed=new URL(currentHref,window.location.href);
+        if(parsed.origin+parsed.pathname===CHECKOUT_CONFIG.baseUrl){
+          existingParams=parsed.searchParams;
+        }
+      }
+    }catch(e){}
+    var pageParams=new URLSearchParams(window.location.search);
+    CHECKOUT_CONFIG.allowedTrackingParams.forEach(function(param){
+      var val=existingParams?existingParams.get(param):null;
+      if(!val)val=pageParams.get(param);
+      if(val&&val!=='null'&&val!=='undefined'){
+        target.searchParams.set(param,val);
+      }
+    });
+    return target.toString();
+  }
+  function syncCheckoutLinks(){
+    document.querySelectorAll('a[data-checkout]').forEach(function(link){
+      link.removeAttribute('target');
+      link.setAttribute('href',buildCheckoutUrl(link.getAttribute('href')));
+      if(!link.dataset.checkoutBound){
+        link.dataset.checkoutBound='1';
+        link.addEventListener('click',function(){
+          link.setAttribute('href',buildCheckoutUrl(link.getAttribute('href')));
+        });
+      }
+    });
+  }
+  syncCheckoutLinks();
+  window.addEventListener('load',syncCheckoutLinks,{once:true});
+
   var countdown=document.querySelector('[data-countdown]');
   var lastCountdownMinutes=null;
   function pad(value){return String(Math.max(0,value)).padStart(2,'0');}
